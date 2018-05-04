@@ -1,0 +1,402 @@
+% see http://info.semprag.org/basics for a full description of this template
+\documentclass[charis,linguex,biblatex]{glossa}
+% possible options: 
+% [times] for Times font (default if no option is chosen)
+% [cm] for Computer Modern font 
+% [lucida] for Lucida font (not freely available)
+% [brill] open type font, freely downloadable for non-commercial use from http://www.brill.com/about/brill-fonts; requires xetex
+% [charis] for CharisSIL font, freely downloadable from http://software.sil.org/charis/
+% for the Brill an CharisSIL fonts, you have to use the XeLatex typesetting engine (not pdfLatex)
+% [biblatex] for using biblatex
+% [linguex] loads the linguex example package
+% !! a note on the use of linguex: in glossed examples, the third line of the example (the translation) needs to be prefixed with \glt. This is to allow a first line with the name of the language and the source of the example. See example (2) in the text for an illustration.
+% !! a note on the use of bibtex: for PhD dissertations to typeset correctly in the references list, the Address field needs to contain the city (for US cities in the format "Santa Cruz, CA")
+
+\addbibresource{sample.bib} 
+% the above line is for use with biblatex
+% replace this by the name of your bib-file (extension .bib is required)
+% comment out if you use natbib/bibtex
+
+\let\B\relax %to resolve a conflict in the definition of these commands between xyling and xunicode (the latter called by fontspec, called by charis)
+\let\T\relax
+\usepackage{xyling} %for trees; the use of xyling with the CharisSIL font produces poor results in the branches. This problem does not arise with the packages qtree or forest.
+\usepackage[linguistics]{forest} %for nice trees!
+
+% \pdf* commands provide metadata for the PDF output. ASCII characters only!
+\pdfauthor{Full author name}
+\pdftitle{Full title}
+\pdfkeywords{Full keyword list, separated, by, commas}
+
+\title[Glossa guidelines]{Glossa submission guidelines}
+% Optional short title inside square brackets, for the running headers.
+
+\author[Paul \& Vanden Wyngaerd]% short form of the author names for the running header. If no short author is given, no authors print in the headers.
+{%as many authors as you like, each separated by \AND.
+  \spauthor{Waltraud Paul\\ 
+  \institute{CNRS, CRLAO}\\
+  \small{105, Bd. Raspail, 75005 Paris\\
+  waltraud.paul@ehess.fr}
+  }
+  \AND
+  \spauthor{Guido Vanden Wyngaerd \\
+  \institute{KU Leuven}\\
+  \small{Warmoesberg 26, 1000 Brussel\\
+  guido.vandenwyngaerd@kuleuven.be}
+  }%
+}
+
+\begin{document}
+
+\sffamily
+\maketitle
+
+\begin{abstract}
+This document provides a full overview of the information relating to Glossa submissions. This information includes (i) the stylesheet, and (ii) further author guidelines. So as to provide instruction both by example and by rule, this document has been formatted in accordance with the stylesheet it contains.
+\end{abstract}
+
+\begin{keywords}
+  stylesheet; Glossa; latex template
+\end{keywords}
+
+\rmfamily
+
+
+\section{Style sheet}\label{ss}
+
+The Glossa style sheet is based on the \href{http://www.eva.mpg.de/linguistics/past-research-resources/resources/generic-style-rules.html}{The Generic Style Rules for Lin\-guistics} (December 2014 version), developed under a CC-BY licence by Martin Haspelmath. It was slightly modified for Glossa by Waltraud Paul and Guido Vanden Wyngaerd in November 2015. 
+
+\subsection{Anonymisation}
+
+The names of all authors, affiliations, contact details, biography (optional) and the corresponding author details must be completed online as part of the submission process but \textbf{should not be added to the submitted files} until after editorial acceptance.
+
+\subsection{Parts of the text}
+
+The title should not contain any capitalisation apart from the first word and words that need capitals in any context. In the final version of the accepted paper, the title is followed by the first and last name of the author(s), their affiliation, and e-mail. First names should not include only initials.  
+
+Articles must have the main text prefaced by an abstract of no more than 250 words summarising the main arguments and conclusions of the article. A list of up to six key words may be placed below the abstract. The abstract and keywords should also be added to the metadata when making the initial online submission. The abstract is automatically attached to the email message inviting reviewers to review the paper.
+
+Articles are subdivided into numbered sections (and possibly subsections, numbered 1.1 etc., and subsubsections, numbered 1.1.1 etc.), with a bold-faced heading in each case. Subsection headings also have italics. The numbering always begins with 1, not 0. Section headings do not end with a period, and have no special capitalization.
+
+The conclusion is the last numbered section. It may be followed by several (optional) unnumbered sections: Abbreviations, Supplementary files, Ethics and consent, Funding information,  Acknowledgements, Competing Interests, and Authors' contributions, in this order. Of these, only the Competing Interests statement is mandatory, and, if your paper contains glossed examples, the Abbreviations section.
+
+The last part is the list of bibliographical references (References). For the style of references, see below.
+
+\subsection{Numbered examples and formulae}
+
+Examples from languages other than English must be glossed (with word-by-word alignment) and translated (cf. the Leipzig Glossing Rules recommended as basic guidelines \href{http://www.eva.mpg.de/lingua/resources/glossing-rules.php}{here}). Example numbers are enclosed in parentheses, and left-aligned. Example sentences usually have normal capitalization at the beginning and normal punctuation. The gloss line has no capitalization and no punctuation. 
+
+\ex. \ag. Ich   kenne das Kind, dem du geholfen hast.\\
+I.\textsc{nom} know the child.\textsc{acc} who.\textsc{dat} you.\textsc{nom} helped have\\
+\glt `I know the child that you helped.'
+\bg. Ich kenne das Kind, dem du nicht geholfen hast. \\
+I.\textsc{nom} know  the child.\textsc{acc} who.\textsc{dat} you.\textsc{nom} \textsc{neg} helped   have\\
+\glt `I know the child that you didn’t help.’
+
+When the example is not a complete sentence, there is no capitalization and no full stop at the end. If the name of the language is added, the source of the example, or any extra information, this information must be added on an extra first line of the example (with the name of the language in italics).\footnote{Examples in footnotes are numbered with lower case Roman numerals enclosed between brackets:
+
+\ex. Colorless green ideas sleep furiously.
+
+More text can follow the example.}
+
+\ex. \textit{German} \citep{coetsem:2000}\\ %optional line for the name of the language (italics), source, etc. Note the absence of \exg., instead use \ex. (and \a. \b. for subdivisions) when this optional line is present. Use \exg. etc. if this line is absent (as in the previous example)
+\gll das Kind, dem du geholfen hast\\  %original foreign language example preceded by \gll
+the child.\textsc{nom} who.\textsc{dat} you.\textsc{nom}  helped have\\ %gloss line
+\glt `the child that you helped' %translation, preceded by \glt
+
+Ungrammatical examples can be given a parenthesized idiomatic translation. A literal translation may be given in parentheses after the idiomatic translation.
+
+The use of any nonstandard layout in examples beyond what is illustrated above is strongly discouraged, as this will increase production time (and cost) of your paper. If you feel an example needs additional explanation, try as much as possible to provide this in the text that goes with the example.
+
+Formulae must be proofed carefully by the author. Editors will not edit formulae. If special software has been used to create formulae, the way they are laid out is the way they will appear in the publication.
+
+\subsection{Use of footnotes/endnotes}\label{fn}
+
+Use footnotes rather than endnotes (we refer to these as ‘Notes’ in the online publication). These will appear at the bottom of each page. All notes should be used only where crucial clarifying information needs to be conveyed. 
+
+Avoid using notes for purposes of referencing, with in-text citations used instead. If in-text citations cannot be used, a source can be cited as part of a note. Please insert the footnote marker after the end punctuation.
+
+The footnote reference number normally follows a period or a comma, though exceptionally it may follow an individual word. Footnote numbers start with 1. Examples in footnotes have the numbers (i), (ii), etc.
+
+\subsection{Tables and figures}
+
+Tables and figures are treated as floats in typesetting. This means that their placement on the page will not necessarily be where you put it in your manuscript, as this may lead to large parts of the page ending up white (e.g. when a table or figure does not fit on the current page anymore and wraps onto the following page). For this reason, you must always refer to tables and figures in the running text, as in the following example: `In certain languages, the superlative transparently contains the comparative morphologically, as illustrated in Table \ref{tbl:table1} \citep[46]{Bobaljik2012}.' Do not refer to tables and figures using the words `following', `below' or `above', as the final placement of your table or figure may be different from where you placed them in your manuscript.
+
+\begin{table}[h]
+\sffamily
+\centering
+\caption{Morphological containment}	
+\begin{tabular}{lllll}
+ & \textsc{Pos} & \textsc{Cmpr} & \textsc{Sprl}\\
+\hline 
+Persian & kam & kam-tar & kam-tar-in & ‘little’\\Cimbrian & šüa & šüan-ar & šüan-ar-ste & ‘pretty’ \\
+Czech & mlad-ý & mlad-ší & nej-mlad-ší & ‘young’\\Hungarian & nagy & nagy-obb & leg-nagy-obb & ‘big’\\
+Latvian & zil-ais & zil-âk-ais & vis-zil-âk-ais & ‘blue’\\Ubykh &  nüs\textsuperscript{w}\textipa{@} & ç’a-nüs\textsuperscript{w}\textipa{@} & a-ç’a-nüs\textsuperscript{w}\textipa{@} & ‘pretty’ \\
+\end{tabular}\label{tbl:table1}
+\end{table}
+
+Tables and figures are numbered consecutively. Each table and each figure has a caption. The caption is placed below figures, but above tables, with only the figure or table number in bold. The caption ends in a full stop. Examples are shown in the captions of Table \ref{tbl:table1} and Figure \ref{fig:glossalogo}. 
+
+\begin{figure}[h]
+\centering
+\includegraphics{glossa}
+\caption{The Glossa logo}
+\label{fig:glossalogo}
+\end{figure}
+
+All figures must be uploaded separately as supplementary files once the paper is accepted, if possible in colour and at a resolution of at least 300dpi. No file should be larger than 20MB. Standard formats accepted are: \textsc{jpg, tiff, gif, png, eps}. For line drawings, please provide the original vector file (e.g. .ai, or .eps).
+
+Tables must be created using a word processor's table function, not tabbed text. Tables should be included in the manuscript. 
+
+Tables should not include:
+
+\begin{itemize}
+\item Rotated text
+\item Colour to denote meaning (it will not display the same on all devices)
+\item Images
+\item Diagonal lines
+\item Multiple parts (e.g. `Table 1a' and `Table 1b'). These should either be merged into one table, or separated into `Table 1' and `Table 2'.
+\end{itemize}
+If there are more columns than can fit on a single page, the table will be rotated by 90 degrees to fit on the page. Do not use tables that cannot fit onto a single page.
+
+Tree diagrams should be treated as examples, not as figures. If your figure or tree diagram includes text, then for the best match with the typeset text use the font \href{https://software.sil.org/charis/download/}{Charis Sil}, or \href{https://www.fontsquirrel.com/fonts/fira-sans}{Fira Sans}. These fonts also support the International Phonetical Alphabet (IPA) symbols.
+
+
+\subsection{In-text citations}
+
+The short reference form used in the text consists of the author’s surname and the publication year, followed by page numbers where necessary. Brackets surround the year, except if the citation is already inside brackets, in which case there are no brackets around the year. If there are more than two authors, the first name plus \textit{et al.} can be used.
+
+\begin{itemize}
+\item \citet{murray:1983} point out that \ldots
+\item The notation we use to represent this is borrowed from theories according to which $\phi$-features occur in a so-called feature geometry \citep[248-250]{mccarthy:1999}.
+\item Baker et al. (1989) = \citet*{baker:1989}
+\end{itemize}
+When multiple citations are listed, they are separated by semicolons and listed in chronological order. Multiple references to the same author do not repeat redundant information.
+
+\begin{itemize}
+\item Multiple authors have belaboured this point \citep{chomsky:1981,chomsky:1986a,chomsky:1986,iverson:1989,casali:1998a,blevins:2004,franks:2005}.
+\end{itemize}
+Surnames with internal complexity have upper or lower case according to how the author spells his/her own name, e.g.:
+
+\begin{itemize}
+\item It has been claimed by \citet{swart:1998} and \citet{belder:2011} that meaning is compositional. 
+\end{itemize}
+Chinese and Korean names may be treated in a special way: as the surnames are often not very distinctive, the full name may be given in the in-text citation, e.g.
+
+\begin{itemize}
+\item  \ldots the neutral negation \textit{bù} is compatible with stative and activity verbs (cf. Teng Shou-hsin 1973; Hsieh Miao-Ling 2001; Lin Jo-wang 2003) %to achieve this in latex, list the author in your bib-file with brackets around firstname+lastname, e.g. {Teng Shou-hsin}
+\end{itemize}
+
+\subsection{References}
+
+The following rules apply:
+
+\begin{itemize}
+\item The names of authors and editors should be given in their full form as in the publication, without truncation of given names.
+\item All author names are given in the order Firstname Lastname, except for the first author of a bibliography item whose name serves to place the item in the alphabetical order. In this case, the order is Lastname, Firstname.
+\item Page numbers of journals are obligatory (issue numbers preferred).
+\item Journal titles are not abbreviated.
+\item Main title and subtitle are separated by a colon, not by a period.
+\item Titles of works written in a language that readers cannot be expected to know should be accompanied by a translation, given in square brackets \citep{Li1999}.
+\item When there are more than two authors (or editors), each pair of names is separated by a comma, except the last two, which are separated by an ampersand. 
+\item No author names are omitted, i.e. et al. is not used in the references.
+\end{itemize}
+
+There are four standard reference types: journal article, book, article in edited book, thesis. Works that do not fit easily into these types should be assimilated to them to the extent that this is possible. See the bibliography at the end of this article for examples.
+
+Surnames with internal complexity are never treated in a special way. Thus, Dutch or German surnames that begin with \textit{van} or \textit{von} (e.g. van Riemsdijk) or French and Dutch surnames that begin with with \textit{de} (e.g. de Saussure) are alphabetized under the first part, even though they begin with a lower-case letter. Thus, the following names are sorted alphabetically as indicated:\begin{itemize}
+\item Da Milano, Federica
+\item de Groot, Casper
+\item De Schutter, Georges
+\item de Saussure, Ferdinand
+\item van der Auwera, Johan
+\item Van Langendonck, Willy
+\item van Riemsdijk, Henk
+\item von Humboldt, Wilhelm
+\end{itemize}
+
+Capitalize all lexical words (title case) in journal titles and titles of book series. Capitalize only the first word (plus proper names and the first word after a colon) for book and dissertation titles, and article and chapter titles. The logic is to use title case for the titles that are recurring, lower case for those that are not.
+
+Names of book series directly follow the book title, without intervening punctuation. They appear between brackets and in roman font. They may be accompanied by an (optional) issue number.
+
+\subsection{Typographical matters}
+
+\subsubsection{Capitalization}
+
+Sentences, proper names and titles/headings/captions start with a capital letter, but there is no special capitalization (“title case”) within English titles/headings, neither in the article title nor in section headings or figure captions. Capitalization is also used after the colon in titles, i.e. for the beginning of subtitles.
+
+Capitalization is used only for parts of the article (chapters, figures, tables, appendixes) when they are numbered, e.g.
+\begin{itemize}
+\item as shown in Table 5
+\item more details are given in Chapter 3
+\item this is illustrated in Figure 17
+\end{itemize}
+
+Please refrain from the use of FULL CAPS (except for abbreviations).
+
+\subsubsection{Italics}
+Italics are used in the following cases:
+\sloppy
+\begin{itemize}
+\item for technical terms and all object-language forms (letters, words, phrases, sentences) that are cited within the text, unless they are phonetic transcriptions or phonological representations in IPA.
+\item for emphasis within the text of a particular word that is not a technical term.
+\item for emphasis within a quotation, with the indication [emphasis mine/ours] at the end of the quotation.
+\item for the name of the language in examples.
+\end{itemize}
+
+In numbered examples, do not use italics to highlight particular parts of the example; use bold instead.
+
+\fussy
+
+\subsubsection{Small caps} 
+%\paragraph{Small caps} Small caps are used for grammatical categories in the interlinear glosses in examples (e.g. \textsc{fut, neg, sg, obl}, etc.). They are also used for indicating stressed syllables or words in example sentences. 
+
+Small caps are used for grammatical categories in the interlinear glosses in examples (e.g. \textsc{fut, neg, sg, obl}, etc.). They are also used for indicating stressed syllables or words in example sentences. 
+
+\subsubsection{Boldface and other highlighting}
+Boldface can be used to draw the reader’s attention to particular aspects of a linguistic example, whether given within the text or as a numbered example. Full caps, underlining, or italics are not normally used for highlighting.
+
+\subsubsection{Quotation marks}
+Double quotation marks are used
+
+\begin{itemize}
+\item when a passage from another work is cited in the text.
+\item when a technical term or other expression is mentioned that the author does not want to adopt.
+\end{itemize}
+Ellipsis in a quotation is indicated by [\ldots].
+
+Single quotation marks are used exclusively for linguistic meanings, e.g.
+\begin{itemize}
+\item Latin \textit{habere} ‘have’ is not cognate with Old English \textit{hafian} ‘have’.
+\end{itemize}
+Quotes within quotes are not treated in a special way.
+Note that quotations from other languages should be translated (inline if they are short, in a footnote if they are longer).
+
+\subsubsection{Abbreviations}
+When a complex term that is not widely known is referred to frequently, it may be abbreviated (e.g. DOC for ``double-object construction''). The abbreviation should be given in the text when it is first used. Abbreviations of uncommon expressions are not used in headings or captions, and they should be avoided at the beginning of a chapter or major section.
+
+Abbreviations used in glossed examples should be listed in a separate section following the conclusions. For a list of standard abbreviations, refer to the \href{https://www.eva.mpg.de/lingua/resources/glossing-rules.php}{Leipzig glossing rules}. 
+
+
+\section{Author guidelines}
+
+\sloppy
+Submissions should be made electronically through the \href{http://glossa.ubiquitypress.com}{Glossa} website. Please ensure that you consider the following guidelines when preparing your manuscript. Failure to do so may delay the processing of your submission. A downloadable version of the style guide is available \texttt{\href{http://glossa.ubiquitypress.com}{here}}. 
+
+\fussy
+
+\subsection{Article types}
+
+\subsubsection{Research articles}
+
+Research articles must describe the outcomes and application of unpublished original research. These should make a substantial contribution to knowledge and understanding in the subject matter and should be supported by relevant figures and tabulated data. Research articles should not exceed 15,000 words.\footnote{All the word limits mentioned in this section include referencing and citation.} Longer articles will have to be properly justified by the authors.
+
+\subsubsection{Overview articles}
+
+Overview articles must describe the state-of-the art in a given subdiscipline or a specific topic in linguistics. They should be very accessible, aimed at an audience of MA students or interested colleagues. Overview articles should be no more than 15,000 words in length. Again, longer articles will have to be properly justified by the authors.
+
+\subsubsection{Book reviews}
+
+Book reviews present critical appraisals of recent books in linguistics, with a preference for monographs, handbooks, and grammars. They can cover topics such as current controversies or the historical development of studies as well as issues of regional or temporal focus. Papers should critically engage with the relevant body of extant literature. Book reviews should be no longer than 3,000 words in length.
+
+\subsubsection{Review articles}
+
+Review articles present longer critical appraisals of one or more recent books, and contain an original contribution or perspective on the book(s) reviewed. Review articles will be reviewed by the editors and/or members of the editorial board. They should be no longer than 6,000 words in length.
+
+\subsubsection{Squibs}
+
+Squibs are short notes (5,000 words max.) that make a scintillating point by calling attention to a theoretically unexpected observation about language, without the need for a developed analysis or solution.
+
+\subsubsection{Special Collections}
+
+Special Collections are collections of papers devoted to a particular topic, and edited by a team of guest editors. Although contributions to special issues are subject to the normal process of blind peer review, Special Collections are by invitation only. If you are interested in submitting or guest-editing a Special Collection, please contact the editors.
+
+\subsection{Submission preparation checklist}
+
+As part of the submission process, authors are required to check off their submission's compliance with all of the following items, and submissions may be returned to authors that do not adhere to these guidelines.
+
+\begin{enumerate}[label=\arabic*.]
+\item The submission has not been previously published, nor is it being considered for publication by another journal (or an explanation has been provided in Comments to the Editor).
+\item Any third-party-owned materials used have been identified with appropriate credit lines, and permission obtained from the copyright holder for all formats of the journal.
+\item All authors have given permission to be listed on the submitted paper and satisfy the \href{http://glossa.ubiquitypress.com/about/authorship/}{authorship guidelines}. 
+\item The submission file is in Latex, OpenOffice, Microsoft Word, \textsc{rtf}, or WordPerfect document file format.
+\item All \textsc{doi}s for the references have been provided, when available.
+\item Tables and figures are all cited in the text. Tables are included within the text document, whilst figure files are uploaded as supplementary files.
+\item Figures/images have a resolution of at least 300dpi. Each file is no more than 20Mb per file. The files are in one of the following formats: \textsc{jpg, tiff, gif, png, eps} (to maximise quality, the original source file is preferred).
+\item The text adheres to the stylistic and bibliographic requirements outlined in the \href{http://glossa.ubiquitypress.com/about/submissions/\#authorGuidelines}{Author Guidelines}, which is found in \href{http://glossa.ubiquitypress.com/about/}{About the Journal}. Every effort has been made to ensure that author names are removed from the manuscript (following the instructions to ensure \href{http://glossa.ubiquitypress.com/help/view/editorial/topic/000044/}{blind peer review}).
+\item For Latex submissions, a document class file \textit{glossa.cls} is available, as well as a bibliography style file \textit{sp.bst} and a template \textit{glossa-template.tex} (the present document). These can all be downloaded as a single zip-file here.
+\end{enumerate}
+
+\subsection{Copyright notice}
+
+Authors who publish with this journal agree to the following terms:
+
+\begin{enumerate}[label=\arabic*.]
+\item Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a \href{http://creativecommons.org/licenses/by/3.0/}{Creative Commons Attribution License} that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.
+\item Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.
+\item Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See \href{http://opcit.eprints.org/oacitation-biblio.html}{The Effect of Open Access}).
+\end{enumerate}
+
+\subsection{Privacy statement}
+
+The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.
+
+\subsection{Publication fees}
+
+Authors publishing in \textit{Glossa} face no financial charges for the publication of their article. Those authors who have access to funds earmarked for Article Processing Charges  (via a research grant or through their institution) will be asked to use those funds to cover the £300 APCs of their publication in \textit{Glossa}. Authors without access to such funds should indicate so during the initial submission process. The APCs for their articles will be paid by LingOA, a fund made possible by grants from the \textit{Association of Dutch Universities} (VSNU) and the \textit{Netherlands Organisation for Scientific Research} (NWO), with long-term funding provided by the \textit{Open Library of Humanities} (OLH).
+
+The APC covers all publication costs (editorial processes; web hosting; indexing; marketing; archiving; DOI registration etc) and ensures that all of the content is fully open access. This approach maximises the potential readership of publications and allows the journal to be run in a sustainable way.
+
+If you do not know about your institution’s policy on open access funding, please contact your departmental/faculty administrators and institution library, as funds may be available to you.
+
+Upon publication, you will receive an APC request email along with information on how payment can be arranged from \href{https://www.openaccesskey.com}{Open Access Key} (OAK). If you need to waive the APC, you will also have an opportunity to do it at this point.
+
+\section{Conclusion}
+
+We have provided a full overview of the information relating to Glossa submissions, both in regard to the stylesheet and the general author guidelines. 
+
+The conclusion is the last numbered section, and any ensuing sections are unnumbered.
+
+\section*{Abbreviations (mandatory)}
+
+\textsc{acc} = accusative, \textsc{dat} = dative, \textsc{nom} = nominative, \textsc{pl} = plural, \textsc{sg} = singular
+
+For a list of standard abbreviations, refer to the \href{https://www.eva.mpg.de/lingua/resources/glossing-rules.php}{Leipzig glossing rules}. 
+
+\section*{Supplementary files (optional)}
+
+This section will include a link to any sort of appendices, repositories, or other files. Appendices will not be typeset and included in the production flow of the article, although the document will have its own DOI and the article will point to it via a link in this section. In this way, additional data or content will be included directly in the article, and  be reachable for readers.
+
+Any supplementary files that should link to the main publication must be listed, with a corresponding number, title, and DOI. Ideally supplementary files are also cited in the main text. If the supplementary file has been uploaded to an open repository then please include the DOI in your manuscript. If the files are not in a repository, please upload all relevant files as `Data' files during the submission process. The journal will host the files and assign a DOI upon publication. 
+
+An example is provided below:
+
+\noindent Supplementary file 1: Supplement to ‘Spoken syntax in a comparative perspective’. DOI: \doi{10.5334/gjgl.310.s1}
+
+\section*{Ethics and consent (optional)}
+
+Research involving human subjects, human material, or human data, must have been performed in accordance with the Declaration of Helsinki. Where applicable, the studies must have been approved by an appropriate ethics committee and the authors should include a statement within the article text detailing this approval, including the name of the ethics committee and reference number of the approval. The identity of the research subject should be anonymised whenever possible. For research involving human subjects, informed consent to participate in the study must be obtained from participants (or their legal guardian).
+
+
+\section*{Funding information (optional)}
+
+Should the research have received a funding grant, then the grant provider and grant number can be detailed in this section. 
+
+\section*{Acknowledgements (optional)}
+
+The authors wish to thank Martin Haspelmath for providing the generic style sheet for linguistics, and Kai von Fintel for giving permission to use and modify the \textit{Semantics \& Pragmatics} Latex template, bibliography style, and document class.
+
+\section*{Competing interests (mandatory)}
+
+If any of the authors have any competing interests then these must be declared. Consult the \href{http://www.glossa-journal.org/about/competinginterests/}{Competing Interests} section on the Glossa website for more information. If there are no competing interests to declare then the following statement should be present: The author(s) has/have no competing interests to declare.
+
+\section*{Authors' contributions (optional)}
+
+Here you may provide a sentence or a short paragraph detailing the contribution of each author to the paper.
+
+\nocite{*} %this is to get all the entries of the sample bibliography; delete this line for an actual Glossa submission
+
+\printbibliography %for use with biblatex; comment out if you use natbib
+%\bibliography{sample} %for use with natbib; comment out if you use biblatex, and change 'sample' by the name of your bib-file
+
+
+\end{document}

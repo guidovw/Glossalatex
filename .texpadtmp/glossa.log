@@ -1,0 +1,4115 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2016.11.28)  25 DEC 2016 14:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**glossa.bst
+(./glossa.bst
+./glossa.bst:58: You can't use `macro parameter character #' in horizontal mode.
+l.58 { #
+        0 'before.all :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:59: You can't use `macro parameter character #' in horizontal mode.
+l.59   #
+        1 'mid.sentence :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:60: You can't use `macro parameter character #' in horizontal mode.
+l.60   #
+        2 'after.sentence :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:61: You can't use `macro parameter character #' in horizontal mode.
+l.61   #
+        3 'after.block :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:67: Extra }, or forgotten $.
+l.67     { " " * write$ }
+                         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:69: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.69         { add.period$
+                           write$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:69: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.69         { add.period$
+                           write$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:71: Undefined control sequence.
+l.71           "\newblock
+                          " write$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:72: Extra }, or forgotten $.
+l.72         }
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:74: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.74             'write$
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:77: Extra }, or forgotten $.
+l.77         }
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:83: Extra }, or forgotten $.
+l.83 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:85: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.85 { duplicate$
+                  empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:89: Extra }, or forgotten $.
+l.89 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:92: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.92   duplicate$
+                  empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:93: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.93     { pop$
+                "empty " t * " in " * cite$ * warning$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:96: Extra }, or forgotten $.
+l.96 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:98: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.98 { add.period$
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:101: Too many }'s.
+l.101 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (9.74306pt too wide) in paragraph at lines 27--102
+\tenrm FUNC-TION out-put.nonnull  's := out-put.state mid.sentence =  " " * write$[]$|
+
+\hbox(7.5+1.94444)x469.75499, glue set - 1.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.\discretionary
+..\tenrm -
+.etc.
+
+
+Overfull \hbox (11.437pt too wide) in paragraph at lines 27--102
+\tenrm empty$[]$ "empty " t * " in " * cite$\tensy ^^C\teni warning$  \tenrm 'out-put.nonnull if$\teni FUNCTION[][]$ \tenrm write$\teni newline$|
+
+\hbox(7.5+1.94444)x469.75499, glue set - 1.0
+.\tenrm e
+.\tenrm m
+.\tenrm p
+.\tenrm t
+.\kern-0.27779
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--102
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+./glossa.bst:113: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.113         'skip$
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:116: Extra }, or forgotten $.
+l.116     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (28.43419pt too wide) in paragraph at lines 103--122
+[]\tenrm FUNCTION new.block  out-put.state be-fore.all = 'skip$[]\teni if$  \tenrm FUNC-TION new.sentence|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:138: You can't use `macro parameter character #' in horizontal mode.
+l.138 {   { #
+             0 }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:139: You can't use `macro parameter character #' in horizontal mode.
+l.139     { #
+             1 }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:141: Extra }, or forgotten $.
+l.141 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:143: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.143 {   'skip$
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:144: You can't use `macro parameter character #' in math mode.
+l.144     { pop$ #
+                  0 }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:144: Extra }, or forgotten $.
+l.144     { pop$ #0 }
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:148: You can't use `macro parameter character #' in math mode.
+l.148 {   { pop$ #
+                  1 }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:148: Extra }, or forgotten $.
+l.148 {   { pop$ #1 }
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:151: Extra }, or forgotten $.
+l.151 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:153: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.153 { empty$
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:162: Extra }, or forgotten $.
+l.162     { pop$ "" }
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:165: Extra }, or forgotten $.
+l.165 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:167: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.167 { duplicate$
+                   empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:168: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.168     { pop$
+                 "" }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:169: Undefined control sequence.
+l.169     { "\emph
+                  {" swap$ * "}" * }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:169: Extra }, or forgotten $.
+l.169     { "\emph{" swap$ * "}
+                               " * }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:169: Extra }, or forgotten $.
+l.169     { "\emph{" swap$ * "}" * }
+                                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:173: You can't use `macro parameter character #' in horizontal mode.
+l.173 { duplicate$ text.length$ #
+                                 3 <
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (83.03545pt too wide) in paragraph at lines 137--179
+[]\tenrm FUNCTION not   0   1  if$\teni FUNCTION[][]$  \tenrm pop$0\teni if$  \tenrm FUNC-TION or   pop$1[]\teni skip$ \tenrm if$\teni FUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Overfull \hbox (68.08995pt too wide) in paragraph at lines 137--179
+\tenrm swap$\teni empty$ \tenrm and 'skip$[]\teni new:blockif$  \tenrm FUNC-TION field.or.null  duplicate$\teni empty$  \tenrm pop$""[]\teni skip$ \tenrm if$\teni FUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm w
+.\kern-0.27779
+.\tenrm a
+.\tenrm p
+.etc.
+
+./glossa.bst:184: Extra }, or forgotten $.
+l.184 { " " swap$ * " " * }
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:185: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.185 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./glossa.bst:290: You can't use `macro parameter character #' in horizontal mode.
+l.290   #
+         -2 #1 substring$ "1" =
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:290: You can't use `macro parameter character #' in horizontal mode.
+l.290   #-2 #
+             1 substring$ "1" =
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:292: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.292      { duplicate$
+                        #-1 #1 substring$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:292: You can't use `macro parameter character #' in horizontal mode.
+l.292      { duplicate$ #
+                         -1 #1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:292: You can't use `macro parameter character #' in horizontal mode.
+l.292      { duplicate$ #-1 #
+                             1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:294: Extra }, or forgotten $.
+l.294          { pop$ bbl.st * }
+                                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:295: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.295          { duplicate$
+                            "2" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:296: Extra }, or forgotten $.
+l.296              { pop$ bbl.nd * }
+                                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:300: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.300                if$
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:303: Extra }, or forgotten $.
+l.303           }
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:307: Extra }, or forgotten $.
+l.307 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:308: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.308 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./glossa.bst:313: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.313       pop$
+                 pop$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:315: Extra }, or forgotten $.
+l.315     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:316: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.316     { duplicate$
+                       empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:318: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.318           swap$
+                      pop$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:319: Extra }, or forgotten $.
+l.319         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:320: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.320         { swap$
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:322: Extra }, or forgotten $.
+l.322         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:326: Extra }, or forgotten $.
+l.326 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:328: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.328 { swap$
+             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:333: Extra }, or forgotten $.
+l.333     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:334: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.334     { duplicate$
+                       empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:336: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.336           swap$
+                      "empty " swap$ * " in " * cite$ * warning$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:337: Extra }, or forgotten $.
+l.337         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:338: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.338         { swap$
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:340: Extra }, or forgotten $.
+l.340         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:344: Extra }, or forgotten $.
+l.344 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:346: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.346 { url empty$
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:348: Undefined control sequence.
+l.348     { "\urlprefix
+                       \url{" url * "}" * }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:348: Undefined control sequence.
+l.348     { "\urlprefix\url
+                           {" url * "}" * }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:350: Extra }, or forgotten $.
+l.350 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:351: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.351 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (123.30241pt too wide) in paragraph at lines 309--351
+[]\tenrm FUNCTION bib-info.check  swap$\teni duplicate$ \tenrm missing$[]$ pop$""[]$ empty$[]$ pop$[]$ pop$\teni if$  \tenrm if$\teni FUNCTION[][]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:362: You can't use `macro parameter character #' in math mode.
+l.362   #
+         1 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:363: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.363   s num.names$
+                     'numnames :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:365: You can't use `macro parameter character #' in horizontal mode.
+l.365     { namesleft #
+                       0 > }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:367: You can't use `macro parameter character #' in math mode.
+l.367       duplicate$ #
+                        1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:374: You can't use `macro parameter character #' in math mode.
+l.374       nameptr #
+                     1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:376: You can't use `macro parameter character #' in math mode.
+l.376           namesleft #
+                           1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:379: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.379               s nameptr "{ll}" format.name$
+                                                  duplicate$ "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:379: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.379               s nameptr "{ll}" format.name$
+                                                  duplicate$ "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:381: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.381                 { pop$
+                             }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:394: Extra }, or forgotten $.
+l.394         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:397: You can't use `macro parameter character #' in horizontal mode.
+l.397       nameptr #
+                     1 + 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:398: You can't use `macro parameter character #' in horizontal mode.
+l.398       namesleft #
+                       1 - 'namesleft :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:401: Extra }, or forgotten $.
+l.401   }
+          if$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:409: You can't use `macro parameter character #' in math mode.
+l.409   #
+         1 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:410: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.410   s num.names$
+                     'numnames :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:412: You can't use `macro parameter character #' in horizontal mode.
+l.412     { namesleft #
+                       0 > }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:418: You can't use `macro parameter character #' in math mode.
+l.418       nameptr #
+                     1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:420: You can't use `macro parameter character #' in math mode.
+l.420           namesleft #
+                           1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:423: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.423               s nameptr "{ll}" format.name$
+                                                  duplicate$ "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:423: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.423               s nameptr "{ll}" format.name$
+                                                  duplicate$ "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:425: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.425                 { pop$
+                             }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:429: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.429 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./glossa.bst:429: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.429 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (65.32031pt too wide) in paragraph at lines 357--429
+\tenrm format.name$\teni bibinfobibinfo:check[]t \tenrm := \teni nameptr\tenrm 1 \teni > []$ \tenrm duplicate$"\teni others\tenrm " =|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\tenrm m
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (75.42487pt too wide) in paragraph at lines 357--429
+\tenrm 'namesleft :=  while$\teni if$  \tenrm FUNC-TION for-mat.names.ed  'bib-info := duplicate$\teni empty$ \tenrm 'skip$[]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm '
+.\tenrm n
+.\tenrm a
+.\tenrm m
+.\tenrm e
+.etc.
+
+
+Overfull \hbox (28.9026pt too wide) in paragraph at lines 357--429
+\tenrm 'num-names := num-names 'namesleft :=  namesleft 0 >   s nameptr "ff vv ll, jj" format.name$\teni bibinfobibinfo:check[]t \tenrm :=|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm '
+.\tenrm n
+.\kern-0.27779
+.\tenrm u
+.\tenrm m
+.etc.
+
+./glossa.bst:437: Extra }, or forgotten $.
+l.437             }
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:442: You can't use `macro parameter character #' in math mode.
+l.442       nameptr #
+                     1 + 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:443: You can't use `macro parameter character #' in math mode.
+l.443       namesleft #
+                       1 - 'namesleft :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:444: Extra }, or forgotten $.
+l.444     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:447: Extra }, or forgotten $.
+l.447 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:449: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.449 { empty$
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:453: Extra }, or forgotten $.
+l.453 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:454: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.454 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./glossa.bst:459: You can't use `macro parameter character #' in math mode.
+l.459 { editor num.names$ #
+                           1 > 'bbl.editors 'bbl.editor if$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (27.85486pt too wide) in paragraph at lines 455--460
+[]\tenrm FUNCTION for-mat.authors  au-thor "au-thor" for-mat.names  FUNC-TION get.bbl.editor  ed-i-tor num.names$1 \teni >[]|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:466: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.466    "(" swap$
+                   * ")" *
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:470: Extra }, or forgotten $.
+l.470 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:473: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.473   duplicate$
+                   empty$ 'skip$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:476: Undefined control sequence.
+l.476       "\doi
+                 {" swap$ * "}" *
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:476: Extra }, or forgotten $.
+l.476       "\doi{" swap$ * "}
+                              " *
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:477: Extra }, or forgotten $.
+l.477     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:484: You can't use `macro parameter character #' in math mode.
+l.484     { note #
+                  1 #1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:484: You can't use `macro parameter character #' in math mode.
+l.484     { note #1 #
+                     1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:484: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.484     { note #1 #1 substring$
+                                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:486: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.486         'skip$
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:494: You can't use `macro parameter character #' in math mode.
+l.494       note #
+                  2 global.max$ substring$ * "note" bibinfo.check
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:495: Extra }, or forgotten $.
+l.495     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (3.28706pt too wide) in paragraph at lines 461--498
+[]\tenrm FUNCTION for-mat.editors  ed-i-tor "ed-i-tor" for-mat.names duplicate$\teni empty$ \tenrm 'skip$[]$|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:502: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.502     { "t" change.case$
+                             }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:505: Extra }, or forgotten $.
+l.505 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:509: You can't use `macro parameter character #' in math mode.
+l.509   #
+         1 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:510: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.510   s num.names$
+                     'numnames :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:512: You can't use `macro parameter character #' in horizontal mode.
+l.512     { namesleft #
+                       0 > }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:516: You can't use `macro parameter character #' in math mode.
+l.516       nameptr #
+                     1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:518: You can't use `macro parameter character #' in math mode.
+l.518           namesleft #
+                           1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:521: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.521               s nameptr "{ll}" format.name$
+                                                  duplicate$ "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:521: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.521               s nameptr "{ll}" format.name$
+                                                  duplicate$ "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:523: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.523                 { pop$
+                             }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:536: Extra }, or forgotten $.
+l.536         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:539: You can't use `macro parameter character #' in horizontal mode.
+l.539       nameptr #
+                     1 + 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:540: You can't use `macro parameter character #' in horizontal mode.
+l.540       namesleft #
+                       1 - 'namesleft :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:543: Extra }, or forgotten $.
+l.543 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:544: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.544 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (260.44484pt too wide) in paragraph at lines 499--544
+[]\tenrm FUNCTION for-mat.title  ti-tle duplicate$\teni empty$ \tenrm 'skip$[]$  if$"\teni title\tenrm "\teni bibinfo:checkFUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Overfull \hbox (105.31104pt too wide) in paragraph at lines 499--544
+[]$ \tenrm duplicate$"\teni others\tenrm " = [][]$  if$\teni t\tenrm "\teni others\tenrm " = [][]\teni if$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(6.94444+1.94444)x217.65898
+..\teni n
+..\teni a
+..\teni m
+..\teni e
+..\teni s
+..etc.
+.\mathoff
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm d
+.\tenrm u
+.etc.
+
+./glossa.bst:547: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.547     { editor empty$
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:549: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.549             { cite$
+                          #1 #3 substring$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:549: You can't use `macro parameter character #' in horizontal mode.
+l.549             { cite$ #
+                           1 #3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:549: You can't use `macro parameter character #' in horizontal mode.
+l.549             { cite$ #1 #
+                              3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:549: Extra }, or forgotten $.
+l.549             { cite$ #1 #3 substring$ }
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:555: Extra }, or forgotten $.
+l.555     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:562: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.562     { key empty$
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:563: You can't use `macro parameter character #' in math mode.
+l.563          { cite$ #
+                        1 #3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:563: You can't use `macro parameter character #' in math mode.
+l.563          { cite$ #1 #
+                           3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:566: Extra }, or forgotten $.
+l.566     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (3.55663pt too wide) in paragraph at lines 560--570
+[]\tenrm FUNCTION au-thor.key.full  au-thor empty$[]$  cite$13\teni substring$  \tenrm 'key if$[]\teni if$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--570
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+./glossa.bst:573: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.573     { key empty$
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:574: You can't use `macro parameter character #' in math mode.
+l.574          { cite$ #
+                        1 #3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:574: You can't use `macro parameter character #' in math mode.
+l.574          { cite$ #1 #
+                           3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:577: Extra }, or forgotten $.
+l.577     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:593: Extra }, or forgotten $.
+l.593 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:594: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.594 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.56021pt too wide) in paragraph at lines 582--594
+[]\tenrm FUNCTION make.full.names  type$"\teni book\tenrm " = \teni type$ \tenrm "in-book" = or 'au-thor.editor.key.full  type$"\teni proceedings\tenrm " =[]|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:597: Undefined control sequence.
+l.597   "\bibitem
+                 [{" write$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:597: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.597   "\bibitem[{" write$
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:600: Extra }, or forgotten $.
+l.600      { pop$ }
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:605: Extra }, or forgotten $.
+l.605   "}
+          " write$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:609: Extra }, or forgotten $.
+l.609 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:610: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.610 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (11.91144pt too wide) in paragraph at lines 595--610
+[]\tenrm FUNCTION out-put.bibitem  newline$"[[]$ la-bel write$")"\teni make:full:namesduplicate$ \tenrm short.list =  pop$[]\teni if$|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:615: Extra }, or forgotten $.
+l.615     { t empty$ not }
+                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:616: You can't use `macro parameter character #' in math mode.
+l.616     { t #
+               1 #1 substring$ "-" =
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:616: You can't use `macro parameter character #' in math mode.
+l.616     { t #1 #
+                  1 substring$ "-" =
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:616: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.616     { t #1 #1 substring$
+                               "-" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:617: You can't use `macro parameter character #' in horizontal mode.
+l.617         { t #
+                   1 #2 substring$ "--" = not
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:617: You can't use `macro parameter character #' in horizontal mode.
+l.617         { t #1 #
+                      2 substring$ "--" = not
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:619: You can't use `macro parameter character #' in math mode.
+l.619               t #
+                       2 global.max$ substring$ 't :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:619: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.619               t #2 global.max$
+                                     substring$ 't :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:620: Extra }, or forgotten $.
+l.620             }
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:621: You can't use `macro parameter character #' in math mode.
+l.621             {   { t #
+                           1 #1 substring$ "-" = }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:621: You can't use `macro parameter character #' in math mode.
+l.621             {   { t #1 #
+                              1 substring$ "-" = }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:621: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.621             {   { t #1 #1 substring$
+                                           "-" = }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:621: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.621             {   { t #1 #1 substring$
+                                           "-" = }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:623: You can't use `macro parameter character #' in horizontal mode.
+l.623                   t #
+                           2 global.max$ substring$ 't :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:626: Extra }, or forgotten $.
+l.626             }
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:629: You can't use `macro parameter character #' in horizontal mode.
+l.629         { t #
+                   1 #1 substring$ *
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:629: You can't use `macro parameter character #' in horizontal mode.
+l.629         { t #1 #
+                      1 substring$ *
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:630: You can't use `macro parameter character #' in math mode.
+l.630           t #
+                   2 global.max$ substring$ 't :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:631: Extra }, or forgotten $.
+l.631         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:635: Extra }, or forgotten $.
+l.635 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:636: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.636 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (31.72899pt too wide) in paragraph at lines 611--636
+[]\tenrm FUNCTION n.dashify  't := ""  t empty$\teni not[]$ \tenrm "-" =  t 1 2 substring$" \tensy ^^@ ^^@\tenrm " = \teni not[]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:646: Extra }, or forgotten $.
+l.646     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:652: Extra }, or forgotten $.
+l.652 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:655: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.655   duplicate$
+                   empty$ 'skip$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:659: Extra }, or forgotten $.
+l.659     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:665: Extra }, or forgotten $.
+l.665 ...wap$ * " fields in " * cite$ * warning$ }
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:679: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.679         { series empty$
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:687: Extra }, or forgotten $.
+l.687         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:694: Extra }, or forgotten $.
+l.694 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:695: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.695 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (218.94124pt too wide) in paragraph at lines 641--695
+\teni warning$ \tenrm pop$"????"[]\teni skip$ \tenrm if$\teni extra:label \tensy ^^C \teni before:all[]output:state \tenrm := \teni after:sentence[]output:state \tenrm := \teni FUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\teni w
+.\kern0.26909
+.\teni a
+.\teni r
+.\kern0.27779
+.etc.
+
+
+Overfull \hbox (37.93918pt too wide) in paragraph at lines 641--695
+\tenrm empty$[]\teni skip$  \tenrm "t" change.case$\teni emphasizeif$  \tenrm FUNC-TION ei-ther.or.check  empty$[]\teni pop$  \tenrm "can't use both " swap$\tensy ^^C\tenrm "\teni fieldsin\tenrm " \tensy ^^C|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm e
+.\tenrm m
+.\tenrm p
+.\tenrm t
+.\kern-0.27779
+.etc.
+
+
+Overfull \hbox (143.25931pt too wide) in paragraph at lines 641--695
+\teni cite$ \tenrm * warning$\teni if$  \tenrm FUNC-TION for-mat.bvolume  vol-ume empty$[][]\teni if$|
+
+\hbox(7.5+1.94444)x469.75499, glue set - 1.0
+.\teni c
+.\teni i
+.\teni t
+.\teni e
+.\mathoff
+.etc.
+
+./glossa.bst:699: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.699   { t empty$
+                   not }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:700: You can't use `macro parameter character #' in horizontal mode.
+l.700   { t #
+             1 #1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:700: You can't use `macro parameter character #' in horizontal mode.
+l.700   { t #1 #
+                1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:701: You can't use `macro parameter character #' in math mode.
+l.701     t #
+             2 global.max$ substring$ 't :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:703: Extra }, or forgotten $.
+l.703       { s swap$ * 's := }
+                               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:704: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.704       { pop$
+                   "" 't := }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:706: Extra }, or forgotten $.
+l.706   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:710: Extra }, or forgotten $.
+l.710     { pop$ s }
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:726: You can't use `macro parameter character #' in math mode.
+l.726                     { s #
+                               1 #1 substring$ is.num
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:726: You can't use `macro parameter character #' in math mode.
+l.726                     { s #1 #
+                                  1 substring$ is.num
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:726: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.726                     { s #1 #1 substring$
+                                               is.num
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:726: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.726                     { s #1 #1 substring$
+                                               is.num
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:726: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.726                     { s #1 #1 substring$
+                                               is.num
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:726: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.726                     { s #1 #1 substring$
+                                               is.num
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:726: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.726                     { s #1 #1 substring$
+                                               is.num
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:730: Extra }, or forgotten $.
+l.730                     }
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:734: Extra }, or forgotten $.
+l.734             }
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:738: Extra }, or forgotten $.
+l.738     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (663.41463pt too wide) in paragraph at lines 714--742
+[]\tenrm FUNCTION con-vert.edition  ex-tract.num "l" change.case$[]\teni s \tenrm := \teni s\tenrm "\teni first\tenrm " = \teni s\tenrm "1" = \teni or[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+[2]
+./glossa.bst:750: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.750       if$
+                change.case$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:753: Extra }, or forgotten $.
+l.753     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:759: You can't use `macro parameter character #' in horizontal mode.
+l.759   #
+         0 'multiresult :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:763: Extra }, or forgotten $.
+l.763     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:764: You can't use `macro parameter character #' in math mode.
+l.764     { t #
+               1 #1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:764: You can't use `macro parameter character #' in math mode.
+l.764     { t #1 #
+                  1 substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:764: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.764     { t #1 #1 substring$
+                              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:769: You can't use `macro parameter character #' in horizontal mode.
+l.769         { #
+                 1 'multiresult := }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:770: You can't use `macro parameter character #' in horizontal mode.
+l.770         { t #
+                   2 global.max$ substring$ 't := }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:772: Extra }, or forgotten $.
+l.772     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:778: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.778     { duplicate$
+                       multi.page.check
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:786: Extra }, or forgotten $.
+l.786     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:791: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.791     { swap$
+                  duplicate$ empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:799: Extra }, or forgotten $.
+l.799         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:803: Extra }, or forgotten $.
+l.803 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:806: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.806   duplicate$
+                   empty$ 'pop$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:815: Extra }, or forgotten $.
+l.815 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:818: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.818   duplicate$
+                   empty$ 'skip$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:826: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.826 ...there's a number but no volume in " cite$
+                                                   * warning$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:826: Extra }, or forgotten $.
+l.826 ...ber but no volume in " cite$ * warning$ }
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:831: Extra }, or forgotten $.
+l.831     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (24.82176pt too wide) in paragraph at lines 743--838
+[]\tenrm FUNCTION for-mat.edition  edi-tion duplicate$\teni empty$ \tenrm 'skip$[]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Overfull \hbox (15.26823pt too wide) in paragraph at lines 743--838
+\tenrm " * swap$\teni n:dashify\tenrm "\teni pages\tenrm "\teni bibinfo:check \tensy ^^C \teni if$  \tenrm if$\teni FUNCTION[][]$|
+
+\hbox(7.5+1.94444)x469.75499, glue set - 1.0
+.\tenrm "
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (61.56679pt too wide) in paragraph at lines 743--838
+\tenrm empty$[]\teni pop$  \tenrm swap$\teni duplicate$ \tenrm empty$[]\teni skip$  \tenrm ". " *  if$\teni swap$ \tenrm *  if$\teni FUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm e
+.\tenrm m
+.\tenrm p
+.\tenrm t
+.\kern-0.27779
+.etc.
+
+
+Overfull \hbox (135.4858pt too wide) in paragraph at lines 743--838
+\tenrm empty$[]$ * warning$[]\teni skip$ \tenrm if$\teni swap$ \tenrm "(" swap$\tensy ^^C\tenrm ")" \tensy ^^C \teni if$ \tenrm * eid empty$[][]\teni if$|
+
+\hbox(7.51782+2.5)x469.75499, glue set - 1.0
+.\tenrm e
+.\tenrm m
+.\tenrm p
+.\tenrm t
+.\kern-0.27779
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--838
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+./glossa.bst:842: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.842     { type empty$
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:846: Extra }, or forgotten $.
+l.846         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:855: Extra }, or forgotten $.
+l.855     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:864: Extra }, or forgotten $.
+l.864 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:866: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.866 { format.booktitle duplicate$
+                                    empty$ 'skip$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:872: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.872           "(" swap$
+                          * "), " *
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:874: Extra }, or forgotten $.
+l.874           * }
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:877: Extra }, or forgotten $.
+l.877     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:883: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.883     { swap$
+                  pop$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:887: Extra }, or forgotten $.
+l.887 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:890: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.890   type duplicate$
+                        empty$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:891: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.891     { pop$
+                 bbl.techrep }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:896: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.896     { pop$
+                 "t" change.case$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:896: Extra }, or forgotten $.
+l.896     { pop$ "t" change.case$ }
+                                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:903: Undefined control sequence.
+l.903   " \cite
+               {" * crossref * "}" *
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:909: Extra }, or forgotten $.
+l.909     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:912: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.912       swap$
+                  tie.or.space.prefix "volume" bibinfo.check * * bbl.of spac...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:915: Undefined control sequence.
+l.915   " \cite
+               {" * crossref * "}" *
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:916: Extra }, or forgotten $.
+l.916 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:920: Undefined control sequence.
+l.920   " \cite
+               {" * crossref * "}" *
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:925: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.925   address empty$
+                       t empty$ and
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:936: Extra }, or forgotten $.
+l.936         }
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:940: Extra }, or forgotten $.
+l.940 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:944: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.944 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (224.06674pt too wide) in paragraph at lines 859--944
+[]\tenrm FUNCTION for-mat.booktitle  book-ti-tle "book-ti-tle" bib-info.check "t" change.case$\teni emphasizeFUNCTION[][]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Overfull \hbox (1.05528pt too wide) in paragraph at lines 859--944
+\tenrm swap$\tensy ^^C\teni if$ \tenrm word.in swap$\tensy ^^C\teni if$  \tenrm FUNC-TION for-mat.thesis.type  type duplicate$\teni empty$ \tenrm 'pop$[]$ pop$"\teni t\tenrm "\teni change:case$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm w
+.\kern-0.27779
+.\tenrm a
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (13.21548pt too wide) in paragraph at lines 859--944
+\tenrm "type" bib-info.check  if$\teni FUNCTION[][]$ \tenrm empty$[]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm "
+.\tenrm t
+.\kern-0.27779
+.\tenrm y
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (27.88431pt too wide) in paragraph at lines 859--944
+\tenrm duplicate$\teni empty$  \tenrm "empty vol-ume in " cite$\tensy ^^C\tenrm "[]\teni scrossrefof\tenrm " \tensy ^^C \teni crossref \tensy ^^C \teni warning$ \tenrm pop$\teni word:in[]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm u
+.\tenrm p
+.\tenrm l
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (450.48613pt too wide) in paragraph at lines 859--944
+\tenrm tie.or.space.prefix "vol-ume" bib-info.check * * bbl.of space.word *  if$"[]" \tensy ^^C \teni FUNCTION[][]FUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm i
+.\tenrm e
+.\tenrm .
+.\tenrm o
+.etc.
+
+./glossa.bst:984: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.984       crossref missing$
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1012: Extra }, or forgotten $.
+l.1012 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1030: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1030 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (701.42137pt too wide) in paragraph at lines 949--1030
+\tenrm for-mat.date "year" out-put.check date.block for-mat.title "ti-tle" out-put.check new.block cross-ref missing$[][]\teni if$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm m
+.etc.
+
+
+Overfull \hbox (181.25607pt too wide) in paragraph at lines 949--1030
+\tenrm out-put.bibitem au-thor empty$[][]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm o
+.\tenrm u
+.\tenrm t
+.\discretionary
+..\tenrm -
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (155.57167pt too wide) in paragraph at lines 949--1030
+\tenrm "au-thor and ed-i-tor" ed-i-tor ei-ther.or.check  'skip$\teni if$  \tenrm if$\teni format:date\tenrm "\teni year\tenrm "\teni output:checkdate:blockformat:btitle\tenrm "\teni title\tenrm "\teni output:checkcrossrefmissing$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm "
+.\tenrm a
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (1714.84833pt too wide) in paragraph at lines 949--1030
+\tenrm put   new.block for-mat.book.crossref out-put.nonnull  if$\teni format:editionoutputformat:doioutputnew:blockformat:urloutputnew:blockformat:noteoutputfin:entryFUNCTION[][]$ |
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm u
+.\tenrm t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+./glossa.bst:1038: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1038       crossref missing$
+                              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1069: Extra }, or forgotten $.
+l.1069 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1070: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1070 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (292.22739pt too wide) in paragraph at lines 1031--1070
+[]\tenrm FUNCTION in-book  out-put.bibitem au-thor empty$[][]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Overfull \hbox (155.57167pt too wide) in paragraph at lines 1031--1070
+\tenrm "au-thor and ed-i-tor" ed-i-tor ei-ther.or.check  'skip$\teni if$  \tenrm if$\teni format:date\tenrm "\teni year\tenrm "\teni output:checkdate:blockformat:btitle\tenrm "\teni title\tenrm "\teni output:checkcrossrefmissing$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm "
+.\tenrm a
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (249.72087pt too wide) in paragraph at lines 1031--1070
+\tenrm put.check new.block for-mat.book.crossref out-put.nonnull  if$\teni format:editionoutputformat:doioutputnew:blockformat:urloutputnew:blockformat:noteoutputfin:entry$ |
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm u
+.\tenrm t
+.\tenrm .
+.\tenrm c
+.etc.
+
+./glossa.bst:1083: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1083       add.period$
+                         % mitcho fix for glossa 20160420
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1099: Extra }, or forgotten $.
+l.1099 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1108: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1108   crossref missing$
+                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1121: Extra }, or forgotten $.
+l.1121     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (467.28423pt too wide) in paragraph at lines 1071--1152
+\tenrm put for-mat.date "year" out-put.check date.block for-mat.title "ti-tle" out-put.check new.block cross-ref missing$[]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm u
+.\tenrm t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm f
+.etc.
+
+
+Overfull \hbox (76.46838pt too wide) in paragraph at lines 1071--1152
+\tenrm for-mat.chapter.pages out-put new.sentence for-mat.publisher.address out-put for-mat.edition out-put   for-mat.incoll.inproc.crossref|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm m
+.etc.
+
+
+Overfull \hbox (1005.51477pt too wide) in paragraph at lines 1071--1152
+\tenrm out-put.nonnull for-mat.chapter.pages out-put  if$\teni format:doioutputnew:blockformat:urloutputnew:blockformat:noteoutputfin:entryFUNCTION[][]$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm o
+.\tenrm u
+.\tenrm t
+.\discretionary
+..\tenrm -
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (228.85513pt too wide) in paragraph at lines 1071--1152
+\tenrm for-mat.in.ed.booktitle "book-ti-tle" out-put.check for-mat.bvolume out-put for-mat.number.series out-put add.period$\teni format:pagesoutputnew:sentencepublisherempty$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm m
+.etc.
+
+
+Overfull \hbox (9.635pt too wide) in paragraph at lines 1071--1152
+\tenrm for-mat.organization.address out-put   or-ga-ni-za-tion "or-ga-ni-za-tion" bib-info.check out-put for-mat.publisher.address|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm m
+.etc.
+
+[3]
+Overfull \hbox (238.7987pt too wide) in paragraph at lines 1212--1235
+\tenrm mat.number.series out-put pub-lisher empty$[][]\teni if$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm a
+.\tenrm t
+.\tenrm .
+.\tenrm n
+.etc.
+
+./glossa.bst:1281: You can't use `macro parameter character #' in horizontal mode.
+l.1281   s #
+            1 len substring$ =
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1282: You can't use `macro parameter character #' in math mode.
+l.1282     { s len #
+                    1 + global.max$ substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1282: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1282     { s len #1 + global.max$
+                                    substring$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1282: Extra }, or forgotten $.
+l.1282     { s len #1 + global.max$ substring$ }
+                                                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1289: You can't use `macro parameter character #' in horizontal mode.
+l.1289   s #
+            1 "{vv~}{ll}" format.name$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1291: You can't use `macro parameter character #' in math mode.
+l.1291   #
+          2 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1292: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1292     { pop$
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1295: You can't use `macro parameter character #' in horizontal mode.
+l.1295     { #
+              2 <
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1297: You can't use `macro parameter character #' in math mode.
+l.1297         { s #
+                    2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1297: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1297 ... s #2 "{ff }{vv }{ll}{ jj}" format.name$
+                                                   "others" =
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1301: You can't use `macro parameter character #' in horizontal mode.
+l.1301             { bbl.and space.word * s #
+                                             2 "{vv~}{ll}" format.name$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1302: Extra }, or forgotten $.
+l.1302               * }
+                        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1306: Extra }, or forgotten $.
+l.1306     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1312: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1312     { key empty$
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1313: You can't use `macro parameter character #' in math mode.
+l.1313         { cite$ #
+                        1 #3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1313: You can't use `macro parameter character #' in math mode.
+l.1313         { cite$ #1 #
+                           3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1316: Extra }, or forgotten $.
+l.1316     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (4.92343pt too wide) in paragraph at lines 1310--1320
+[]\tenrm FUNCTION au-thor.key.label  au-thor empty$[]$  cite$13\teni substring$  \tenrm 'key if$[]\teni if$|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1310--1320
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+./glossa.bst:1323: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1323     { editor empty$
+                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1325: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1325             { cite$
+                           #1 #3 substring$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1325: You can't use `macro parameter character #' in horizontal mode.
+l.1325             { cite$ #
+                            1 #3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1325: You can't use `macro parameter character #' in horizontal mode.
+l.1325             { cite$ #1 #
+                               3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1325: Extra }, or forgotten $.
+l.1325             { cite$ #1 #3 substring$ }
+                                             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1331: Extra }, or forgotten $.
+l.1331     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1338: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1338     { key empty$
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1339: You can't use `macro parameter character #' in math mode.
+l.1339         { cite$ #
+                        1 #3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1339: You can't use `macro parameter character #' in math mode.
+l.1339         { cite$ #1 #
+                           3 substring$ }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1342: Extra }, or forgotten $.
+l.1342     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1359: Extra }, or forgotten $.
+l.1359 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1360: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1360 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (34.83798pt too wide) in paragraph at lines 1347--1360
+[]\tenrm FUNCTION calc.short.authors  type$"\teni book\tenrm " = \teni type$ \tenrm "in-book" = or 'au-thor.editor.key.label  type$"\teni proceedings\tenrm " =[]|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:1368: Extra }, or forgotten $.
+l.1368      { pop$ "" }
+                       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1373: Extra }, or forgotten $.
+l.1373 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1374: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1374 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./glossa.bst:1377: You can't use `macro parameter character #' in horizontal mode.
+l.1377   #
+          1 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1381: You can't use `macro parameter character #' in math mode.
+l.1381     { namesleft #
+                        0 > }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1384: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1384       format.name$
+                          't :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1385: You can't use `macro parameter character #' in horizontal mode.
+l.1385       nameptr #
+                      1 >
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1388: You can't use `macro parameter character #' in horizontal mode.
+l.1388           namesleft #
+                            1 = t "others" = and
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1392: Extra }, or forgotten $.
+l.1392         }
+                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1395: You can't use `macro parameter character #' in horizontal mode.
+l.1395       nameptr #
+                      1 + 'nameptr :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1396: You can't use `macro parameter character #' in horizontal mode.
+l.1396       namesleft #
+                        1 - 'namesleft :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1399: Extra }, or forgotten $.
+l.1399 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1400: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1400 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (23.30397pt too wide) in paragraph at lines 1375--1400
+[]\tenrm FUNCTION sort.format.names  's := 1 'nameptr := "" s num.names$[]\teni numnames \tenrm := \teni numnames[]namesleft \tenrm :=|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm F
+.\tenrm U
+.\tenrm N
+.\tenrm C
+.etc.
+
+./glossa.bst:1403: You can't use `macro parameter character #' in horizontal mode.
+l.1403   "A " #
+               2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1404: You can't use `macro parameter character #' in horizontal mode.
+l.1404     "An " #
+                  3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1405: You can't use `macro parameter character #' in horizontal mode.
+l.1405       "The " #
+                     4 t chop.word
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1409: You can't use `macro parameter character #' in horizontal mode.
+l.1409   #
+          1 global.max$ substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1413: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1413     { key empty$
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1419: Extra }, or forgotten $.
+l.1419     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1425: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1425     { editor empty$
+                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1427: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1427 ..., need author, editor, or key in " cite$
+                                                   * warning$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1429: Extra }, or forgotten $.
+l.1429             }
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1435: Extra }, or forgotten $.
+l.1435     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1441: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1441     { key empty$
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1447: Extra }, or forgotten $.
+l.1447     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1466: You can't use `macro parameter character #' in math mode.
+l.1466   #
+          1 entry.max$ substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1475: You can't use `macro parameter character #' in math mode.
+l.1475   #
+          1 entry.max$ substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (19.37683pt too wide) in paragraph at lines 1401--1478
+\teni editor:sort[]author:sortif$  \tenrm if$1\teni entry:max$ \tenrm substring$[]\teni sort:label \tenrm := \teni sort:label \tensy ^^C \tenrm "" \tensy ^^C \teni titlefield:or:nullsort:format:title \tensy ^^C|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\teni e
+.\teni d
+.\teni i
+.\teni t
+.\teni o
+.etc.
+
+./glossa.bst:1484: You can't use `macro parameter character #' in horizontal mode.
+l.1484 { #
+          0 int.to.chr$ 'last.label :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1486: You can't use `macro parameter character #' in math mode.
+l.1486   #
+          0 'last.extra.num :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1487: You can't use `macro parameter character #' in math mode.
+l.1487   #
+          0 'number.label :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1488: Extra }, or forgotten $.
+l.1488 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1491: You can't use `macro parameter character #' in math mode.
+l.1491     { last.extra.num #
+                             1 + 'last.extra.num :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1492: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1492       last.extra.num int.to.chr$
+                                        'extra.label :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1492: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1492       last.extra.num int.to.chr$
+                                        'extra.label :=
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1497: Extra }, or forgotten $.
+l.1497     }
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1499: You can't use `macro parameter character #' in horizontal mode.
+l.1499   number.label #
+                       1 + 'number.label :=
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1510: Undefined control sequence.
+l.1510     { "{\natexlab
+                        {" swap$ * "}}" * }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1510: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1510     { "{\natexlab{" swap$
+                                 * "}}" * }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1510: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1510     { "{\natexlab{" swap$
+                                 * "}}" * }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1510: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1510     { "{\natexlab{" swap$
+                                 * "}}" * }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1514: Extra }, or forgotten $.
+l.1514 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1529: You can't use `macro parameter character #' in math mode.
+l.1529   #
+          1 entry.max$ substring$
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1529: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1529   #1 entry.max$
+                       substring$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1537: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1537     { preamble$
+                       write$ newline$ }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1539: Undefined control sequence.
+l.1539   "\begin
+                {thebibliography}{" number.label int.to.str$ * "}" *
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1539: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1539 ...bibliography}{" number.label int.to.str$
+                                                   * "}" *
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./glossa.bst:1541: Undefined control sequence.
+l.1541   "\providecommand
+                         {\natexlab}[1]{#1}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1541: Undefined control sequence.
+l.1541   "\providecommand{\natexlab
+                                   }[1]{#1}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1541: You can't use `macro parameter character #' in horizontal mode.
+l.1541   "\providecommand{\natexlab}[1]{#
+                                         1}"
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1543: Undefined control sequence.
+l.1543   "\providecommand
+                         {\url}[1]{\texttt{#1}}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1543: Undefined control sequence.
+l.1543   "\providecommand{\url
+                              }[1]{\texttt{#1}}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1543: Undefined control sequence.
+l.1543   "\providecommand{\url}[1]{\texttt
+                                          {#1}}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1543: You can't use `macro parameter character #' in horizontal mode.
+l.1543   "\providecommand{\url}[1]{\texttt{#
+                                            1}}"
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1545: Undefined control sequence.
+l.1545   "\providecommand
+                         {\urlprefix}{}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1545: Undefined control sequence.
+l.1545   "\providecommand{\urlprefix
+                                    }{}"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1549: Undefined control sequence.
+l.1549   "  \providecommand
+                           {\doi}[1]{doi:\discretionary{}{}{}#1}\else"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1549: Undefined control sequence.
+l.1549   "  \providecommand{\doi
+                                }[1]{doi:\discretionary{}{}{}#1}\else"
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./glossa.bst:1549: You can't use `macro parameter character #' in horizontal mode.
+l.1549 ...mmand{\doi}[1]{doi:\discretionary{}{}{}#
+                                                  1}\else"
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./glossa.bst:1556: Extra }, or forgotten $.
+<recently read> }
+                 
+l.1556 ITERATE {call.type$}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./glossa.bst:1558: Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1558 { newline$
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (86.99153pt too wide) in paragraph at lines 1479--1559
+\tenrm 0[]\teni number:label \tenrm := \teni FUNCTION[][]$|
+
+\hbox(7.51782+1.94444)x469.75499
+.\tenrm 0
+.\hbox(3.8889+0.0)x2.80556, shifted -3.62892
+..\sevensy 0
+.\teni n
+.\teni u
+.\teni m
+.etc.
+
+
+Overfull \hbox (457.87358pt too wide) in paragraph at lines 1479--1559
+\teni EXECUTE[]ITERATE[]REVERSE[]FUNCTION[][]$|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni E
+.\kern0.57637
+.\teni X
+.\kern0.7847
+.\teni E
+.etc.
+
+[4] [5] )
+(\end occurred inside a group at level 12)
+
+### simple group (level 12) entered at line 1556 ({)
+### simple group (level 11) entered at line 906 ({)
+### simple group (level 10) entered at line 790 ({)
+### simple group (level 9) entered at line 758 ({)
+### simple group (level 8) entered at line 663 ({)
+### simple group (level 7) entered at line 643 ({)
+### simple group (level 6) entered at line 642 ({)
+### simple group (level 5) entered at line 612 ({)
+### simple group (level 4) entered at line 603 ({)
+### simple group (level 3) entered at line 596 ({)
+### simple group (level 2) entered at line 583 ({)
+### simple group (level 1) entered at line 138 ({)
+### bottom level</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "/Users/guidovandenwyngaerd/Box Sync/Glossa/Latex/Glossalatex/.texpadtmp/glossa.pdf" (5 pages, 71715 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
