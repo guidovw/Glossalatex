@@ -71,6 +71,10 @@
 
 .Trashes
 
+.gitattributes
+
+.texpadtmp
+
 ehthumbs.db
 
 Thumbs.db
