@@ -7,4 +7,5 @@ Files needed for the Glossa style in Latex:
 5. biblatex-gl.bbx 
 6. gl-authoryear-comp.cbx
 7. gloss.sty (needed for glosses in the Glossa document class; not standardly included in the tex-distribution; put this in a location where latex can find it (eg ~/Library/texmf/tex/latex)
+
 Files 5 and 6 are needed for use with biblatex; put these in a location where latex can find them (eg ~/Library/texmf/tex/latex/biblatex); ignore if you use bibtex.
