@@ -78,3 +78,22 @@
 ehthumbs.db
 
 Thumbs.db
+
+# Latex typesetting tmp files #
+
+*.blg
+
+*.bbl
+
+*.aux
+
+*.gz
+
+*.bcf
+
+*.out
+
+*.toc
+
+*.xml
+
