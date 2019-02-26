@@ -240,7 +240,7 @@
                                      {\setunit{\multicitedelim}}
 \DeclareMultiCiteCommand{\textcites}{\textcite}{}
 
-\renewcommand*{\nameyeardelim}{\addspace} 
+\renewcommand*{\nameyeardelim}{\addspace}
 
 \let\citealt\cite
 \let\cite\textcite
@@ -270,7 +270,7 @@
   {\printtext[bibhyperref]{\printfield{year}\printfield{extrayear}}}
   {\multicitedelim}
   {\usebibmacro{postnote}}
-  
+
 \DeclareCiteCommand{\citeyearpar}[\mkbibparens]
   {\boolfalse{citetracker}%
    \boolfalse{pagetracker}%
@@ -299,7 +299,7 @@
   {\printtext[bibhyperref]{\printnames{labelname}'s}}
   {}
   {}
-  
+
 \renewcommand\multicitedelim{\addsemicolon\space} %semicolon and space between multiple citations in text
 \renewcommand*{\compcitedelim}{\addsemicolon\space} %semicolon and non-breaking space between compressed multiple citations by the same author
 

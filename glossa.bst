@@ -1,31 +1,31 @@
 %%% This is glossa.bst, coded by Guido Vanden Wyngaerd as the house style for bibliographies in Glossa
 %%% It is largely based on sp.bst, coded by Kai von Fintel as the house style for bibliographies in
-%%% the journal Semantics and Pragmatics. The style is based on a style generated 
+%%% the journal Semantics and Pragmatics. The style is based on a style generated
 %%% with custom-bib/merlin.mbs, a system for customizing bibliographic styles
 %%% created by Patrick W Daly. There have been some hand-coded adjustments to that
 %%% style to get the style closer to the Unified Style Sheet for Linguistics Journals.
 %%%
-%%% Version 1.2 [2017/2/16] corrected minor mistake (to get a comma preceding page numbers of artciles in edited volumes)
+%%% Version 1.2 [2017/2/16] corrected minor mistake (to get a comma preceding page numbers of articles in edited volumes)
 %%% Version 1.1 [2016/12/24] rewrote the function format.number.series to improve the treatment of book series (series title in to appear in roman font between brackets followed by optional number field)
-%%% Version 1.0 [2016/04/21] semicolon plus space between multiple references, including multiple references by the same author, also when written in the same year (e.g. Chomsky 1999; 2000a; b); nonbreaking space between a and b; last names with a prefix have the prefix first and are alphabetized accordingly
-%%% 
+%%% Version 1.0 [2016/04/21] last names with a prefix have the prefix first and are alphabetized accordingly
+%%%
 %%% Below is the sp.bst version history
 %%% Version 2.2 [2010/09/14] Added colon between address and school for mastersthesis
 %%% Version 2.1 [2010/02/02] Fixed bvolume (error pointed out by Arash Zeini on ling-tex)
 %%% Version 2.0 [2010/01/25] Adopted almost all changes introduced by Bridget Samuels
-%%%							 for unified.bst (http://celxj.org/downloads/unified.bst)
+%%% for unified.bst (http://celxj.org/downloads/unified.bst)
 %%% Version 1.9 [2009/07/14] Deleted warning about having both volume and series number
 %%% Version 1.8 [2009/07/03] Dealt with presence of both volume and series + number
 %%% Version 1.7 [2009/07/03] Reverted change to format.bvolume
 %%%                          Applied proper change to format.number.series
 %%% Version 1.6 [2009/07/01] Removed extraneous comments from custom-bib/merlin.mbs
-%%%                          Changed format.bvolume to adjust display of series & volume
-%%%                          Hardwired \& instead of \BIBand
+%%% Changed format.bvolume to adjust display of series & volume
+%%% Hardwired \& instead of \BIBand
 %%% Version 1.5 [2009/06/27] Book titles in incollection entries -> sentence capitalization
 %%% Version 1.4 [2009/06/27] Book titles -> sentence capitalization
 %%% Version 1.3 [2009/06/26] Reverted formatting of editors when no author
-%%% Version 1.2 [2009/06/26] Period after vol(num) in journal articles instead of colon. 
-%%%                          Comma added -> Editor (ed.),
+%%% Version 1.2 [2009/06/26] Period after vol(num) in journal articles instead of colon.
+%%% Comma added -> Editor (ed.),
 %%% Version 1.1 [2009/05/22] Deleted stray space after (ed.)
 %%% Version 1.0 [2007/11/27] First public version
 %%
@@ -683,7 +683,7 @@ FUNCTION {format.bvolume}
 FUNCTION {format.number.series}
 { series empty$
 	{""}
-	{ add.blank "(" * 
+	{ add.blank "(" *
            series "series" bibinfo.check *
 	number empty$
 		{""}
@@ -1094,7 +1094,7 @@ FUNCTION {incollection}
       new.sentence
       format.publisher.address output
       format.edition output
-    }  
+    }
     { format.incoll.inproc.crossref output.nonnull
       format.chapter.pages output
     }
