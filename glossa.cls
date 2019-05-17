@@ -210,7 +210,7 @@
 \RequirePackage[normalem]{ulem}
 \RequirePackage{enumitem}
 \RequirePackage[font=sf,labelfont=bf,labelsep=colon,justification=raggedright,singlelinecheck=off,textformat=period,justification=centering]{caption}
-
+\RequirePackage{booktabs}
 
 %=====================================================================
 %============================= metadata ==============================
