@@ -9,6 +9,7 @@
 % v5 16 Aug 2016
 % v6 29 Sep 2016
 % v7 27 Jan 2018 patches by Adam Liter for section headings
+% v8 16 May 2019 patches by GS for compatibility with xe/pdflatex
 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesClass{glossa}[2018/01/27 v.2.3 Class for Glossa]
@@ -133,8 +134,17 @@
 %=====================================================================
 %========================= required packages =========================
 
-\RequirePackage[utf8]{inputenc}
+%%% Modification GS: xunicode is not compatible
+%%% with pdflatex, and one should not use inputenc with xelatex
+\RequirePackage{ifxetex}
+\ifxetex
 \RequirePackage{xunicode} %IPA characters are displayed; the commands of the tipa package are understood
+\else 
+  \RequirePackage[utf8]{inputenc}
+  \RequirePackage[safe]{tipa}
+\fi
+%%% End modification by GS
+
 \RequirePackage{xspace}
 % microtype handles punctuation at the right margin. We want it for the final product, but it's okay if authors lack it.
 \IfFileExists{microtype.sty}{%
