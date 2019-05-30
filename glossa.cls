@@ -133,17 +133,21 @@
 
 %=====================================================================
 %========================= required packages =========================
-
-%%% Modification GS: xunicode is not compatible
+%%% xunicode is not compatible
 %%% with pdflatex, and one should not use inputenc with xelatex
-\RequirePackage{ifxetex}
-\ifxetex
-\RequirePackage{xunicode} %IPA characters are displayed; the commands of the tipa package are understood
-\else 
-  \RequirePackage[utf8]{inputenc}
+%%% LuaLaTeX is incompatible with xunicode, but can safely load tipa
+\RequirePackage{iftex}
+\ifXeTeX
+  \RequirePackage{xunicode} %IPA characters are displayed; the commands of the tipa package are understood
+\else
   \RequirePackage[safe]{tipa}
 \fi
-%%% End modification by GS
+
+\ifPDFTeX
+  \RequirePackage[utf8]{inputenc}
+\else
+\fi
+%%% End modification
 
 \RequirePackage{xspace}
 % microtype handles punctuation at the right margin. We want it for the final product, but it's okay if authors lack it.
