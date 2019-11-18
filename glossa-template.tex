@@ -50,6 +50,8 @@
 \sffamily
 \maketitle
 
+Word count: 4269
+
 \begin{abstract}
 This document provides a full overview of the information relating to Glossa submissions. This information includes (i) the stylesheet, and (ii) further author guidelines. So as to provide instruction both by example and by rule, this document has been formatted in accordance with the stylesheet it contains.
 \end{abstract}
@@ -105,7 +107,7 @@ the child.\textsc{nom} who.\textsc{dat} you.\textsc{nom}  helped have\\ %gloss l
 
 Ungrammatical examples can be given a parenthesized idiomatic translation. A literal translation may be given in parentheses after the idiomatic translation.
 
-The use of any nonstandard layout in examples beyond what is illustrated above is strongly discouraged, as this will increase production time (and cost) of your paper. If you feel an example needs additional explanation, try as much as possible to provide this in the text that goes with the example.
+The use of any nonstandard layout in examples beyond what is illustrated above is strongly discouraged, as this will increase production time (and cost) of your paper, as well as increase the chances of the HTML version format including errors in some browsers/screen sizes. If you feel an example needs additional explanation, try as much as possible to provide this in the text that goes with the example. If nonstandard layout is essential, then please raise this with the editorial team to discuss the options available.
 
 Formulae must be proofed carefully by the author. Editors will not edit formulae. If special software has been used to create formulae, the way they are laid out is the way they will appear in the publication.
 
@@ -203,6 +205,8 @@ The following rules apply:
 
 There are four standard reference types: journal article, book, article in edited book, thesis. Works that do not fit easily into these types should be assimilated to them to the extent that this is possible. See the bibliography at the end of this article for examples.
 
+Glossa style in Citation Style Language (CSL) is available \href{https://www.zotero.org/styles?q=Glossa}{here}. Many thanks to Mark Dingemanse for creating this style.
+
 Surnames with internal complexity are never treated in a special way. Thus, Dutch or German surnames that begin with \textit{van} or \textit{von} (e.g. van Riemsdijk) or French and Dutch surnames that begin with with \textit{de} (e.g. de Saussure) are alphabetized under the first part, even though they begin with a lower-case letter. Thus, the following names are sorted alphabetically as indicated:\begin{itemize}
 \item Da Milano, Federica
 \item de Groot, Casper
@@ -278,11 +282,21 @@ Abbreviations used in glossed examples should be listed in a separate section fo
 
 
 \section{Author guidelines}
+\subsection{Submission information}
 
-\sloppy
-Submissions should be made electronically through the \href{http://glossa.ubiquitypress.com}{Glossa} website. Please ensure that you consider the following guidelines when preparing your manuscript. Failure to do so may delay the processing of your submission. A downloadable version of the style guide is available \texttt{\href{https://www.glossa-journal.org/about/submissions/}{here}}. 
+%\sloppy
+Submissions should be made electronically through the \href{http://glossa.ubiquitypress.com}{Glossa website}. 
 
-\fussy
+Prior to submission, please add a word count (including footnotes and references) directly under the paper title. Then convert your paper into a single PDF file, containing all tables and figures. Non-PDF files or separately provided files may be returned prior to review. Separate image files may be requested if the submission is accepted for publication.
+
+Please ensure that you consider the following guidelines when preparing your manuscript. Failure to do so may delay the processing of your submission. A downloadable version of the style guide is available \texttt{\href{https://www.glossa-journal.org/about/submissions/}{here}}. 
+
+For \LaTeX\ submissions, please download the Latex resources \href{https://github.com/guidovw/Glossalatex}{here}.
+
+All files must be anonymised during the initial submission. Only after editorial acceptance should you add author details to the manuscript files. 
+
+Once a submission has been completed, the submitting author is able to fully track the status of the paper and complete requested revisions via their online profile.
+%\fussy
 
 \subsection{Article types}
 
@@ -310,7 +324,12 @@ Squibs are short notes (5,000 words max.) that make a scintillating point by cal
 
 Special Collections are collections of papers devoted to a particular topic, and edited by a team of guest editors. Although contributions to special issues are subject to the normal process of blind peer review, Special Collections are by invitation only. If you are interested in submitting or guest-editing a Special Collection, please contact the editors.
 
-\subsection{Submission preparation checklist}
+\subsection{Permissions}
+The author is responsible for obtaining all permissions required prior to submission of the manuscript. Permission and owner details should be mentioned for all third-party content included in the submission or used in the research.
+
+If a method or tool is introduced in the study, including software, questionnaires, and scales, the license this is available under and any requirement for permission for use should be stated. If an existing method or tool is used in the research, it is the author's responsibility to check the license and obtain the necessary permissions. Statements confirming that permission was granted should be included in the Materials and Methods section.
+
+\section{Submission preparation checklist}
 
 As part of the submission process, authors are required to check off their submission's compliance with all of the following items, and submissions may be returned to authors that do not adhere to these guidelines.
 
@@ -322,11 +341,13 @@ As part of the submission process, authors are required to check off their submi
 \item All \textsc{doi}s for the references have been provided, when available.
 \item Tables and figures are all cited in the text. Tables are included within the text document, whilst figure files are uploaded as supplementary files.
 \item Figures/images have a resolution of at least 300dpi. Each file is no more than 20Mb per file. The files are in one of the following formats: \textsc{jpg, tiff, gif, png, eps} (to maximise quality, the original source file is preferred).
-\item The text adheres to the stylistic and bibliographic requirements outlined in the \href{http://glossa.ubiquitypress.com/about/submissions/\#authorGuidelines}{Author Guidelines}, which is found in \href{http://glossa.ubiquitypress.com/about/}{About the Journal}. Every effort has been made to ensure that author names are removed from the manuscript (following the instructions to ensure \href{http://glossa.ubiquitypress.com/help/view/editorial/topic/000044/}{blind peer review}).
-\item For Latex submissions, a document class file \textit{glossa.cls} is available, as well as a bibliography style file \textit{sp.bst} and a template \textit{glossa-template.tex} (the present document). These can all be downloaded as a single zip-file here.
+\item The author(s) agree to edit their text to adhere to the stylistic and bibliographic requirements outlined in the \href{https://www.glossa-journal.org/about/submissions#authorGuidelines}{Author Guidelines}, should the paper be editorially accepted.
+\item All references to the author(s) have been removed from the paper. Aside from omitting the author’s name, this entails only referring to your own work in the third person (do not use `Author 1’ or a similar replacement for your own name), and removing your name and any additional metadata from the document’s properties.
+\item Author names are removed from the manuscript files (following the instructions to ensure \href{https://www.glossa-journal.org/help/view/editorial/topic/000044}{blind peer review}).
+
 \end{enumerate}
 
-\subsection{Copyright notice}
+\section{Copyright notice}
 
 Authors who publish with this journal agree to the following terms:
 
@@ -336,23 +357,21 @@ Authors who publish with this journal agree to the following terms:
 \item Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See \href{http://opcit.eprints.org/oacitation-biblio.html}{The Effect of Open Access}).
 \end{enumerate}
 
-\subsection{Privacy statement}
+\section{Privacy statement}
 
-The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.
+The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party. The full privacy policy can be viewed \href{https://www.glossa-journal.org/about/privacy-policy/}{here}.
 
-\subsection{Publication fees}
+\section{Publication fees}
 
-Authors publishing in \textit{Glossa} face no financial charges for the publication of their article. Those authors who have access to funds earmarked for Article Processing Charges  (via a research grant or through their institution) will be asked to use those funds to cover the £300 APCs of their publication in \textit{Glossa}. Authors without access to such funds should indicate so during the initial submission process. The APCs for their articles will be paid by LingOA, a fund made possible by grants from the \textit{Association of Dutch Universities} (VSNU) and the \textit{Netherlands Organisation for Scientific Research} (NWO), with long-term funding provided by the \textit{Open Library of Humanities} (OLH).
+Authors publishing in Glossa face no financial obligation for the publication of their article. Those authors who have access to funds earmarked for Article Processing Charges (via a research grant or through their institution) will be asked to use those funds to cover the £330 APC of their publication in Glossa. \textbf{Authors without access to such funds must contact \email{tim.wakeford@ubiquitypress.com} upon submission to confirm that they will require the APC to be waived.} The waived APCs will be paid by LingOA, a fund made possible by grants from the \emph{Association of Dutch Universities} (VSNU) and the \emph{Netherlands Organisation for Scientific Research} (NWO), with long-term funding provided by the Open Library of Humanities (OLH).
 
 The APC covers all publication costs (editorial processes; web hosting; indexing; marketing; archiving; DOI registration etc) and ensures that all of the content is fully open access. This approach maximises the potential readership of publications and allows the journal to be run in a sustainable way.
 
-If you do not know about your institution’s policy on open access funding, please contact your departmental/faculty administrators and institution library, as funds may be available to you.
+\textbf{If you do not know about your institution’s policy on open access funding, please contact your departmental/faculty administrators and institution library, as funds may be available to you.}
 
-Upon publication, you will receive an APC request email along with information on how payment can be arranged from \href{https://www.openaccesskey.com}{Open Access Key} (OAK). If you need to waive the APC, you will also have an opportunity to do it at this point.
+Shortly after publication, authors that have not already requested a waiver from LingOA will receive an APC request email along with information on how payment can be arranged. If the APC situation has changed since submission to publication, an APC waiver can also be requested at this point.
 
 \section{Conclusion}
-
-We have provided a full overview of the information relating to Glossa submissions, both in regard to the stylesheet and the general author guidelines. 
 
 The conclusion is the last numbered section, and any ensuing sections are unnumbered.
 
