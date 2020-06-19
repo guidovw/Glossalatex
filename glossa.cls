@@ -10,6 +10,7 @@
 % v6 29 Sep 2016
 % v7 27 Jan 2018 patches by Adam Liter for section headings
 % v8 16 May 2019 patches by GS for compatibility with xe/pdflatex
+% v- 19 Jun 2020 by mitcho to better match Glossa typesetting
 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesClass{glossa}[2018/01/27 v.2.3 Class for Glossa]
@@ -44,10 +45,10 @@
 
 \newcommand{\@sizeoption@err}{\ClassError{sp}
   {Cannot use size option \CurrentOption} 
-  {The S&P style requires (and automatically loads) 12pt text}}
+  {Glossa style requires (and automatically loads) 11pt text}}
 
 \DeclareOption{10pt}{\@sizeoption@err}
-\DeclareOption{11pt}{\@sizeoption@err}
+\DeclareOption{12pt}{\@sizeoption@err}
 
 \DeclareOption{lucida}{\@lucidatrue \@timesfalse \@cmfalse \@brillfalse \@charisfalse}
 \DeclareOption{times}{\@lucidafalse \@timestrue \@cmfalse \@brillfalse \@charisfalse}
@@ -60,7 +61,7 @@
 
 \ExecuteOptions{times} % times is the default.
 \ProcessOptions\relax
-\LoadClass[12pt,twoside]{article}
+\LoadClass[11pt,twoside]{article}
 
 \if@lucida
  \IfFileExists{lucimatx.sty}{%
@@ -247,27 +248,27 @@
 %========================== page dimensions ==========================
 
 % Vertical.
-\paperheight=11in
-\topmargin=0in     %
-\headheight=0.2in  % head: 1.5in (margin + head + sep = .5; latex adds 1in)
-\headsep=0.3in     %
+\paperheight=297mm
+\topmargin=-13mm   %
+\headheight=5mm    % head: 30mm (margin + head + sep = 0.46cm); latex adds 1in)
+\headsep=17.6mm   %
 \topskip=0.1in     % included in the textheight
-\textheight=8in    % text is 8in
-\footskip=0.5in    % foot: 1.5in (.5 + 1.0in leftover)
+\textheight=237mm  % (297mm - 60mm)
+\footskip=0.46cm   % foot: 30mm total (1.0in leftover)
 \parskip=0pt
 
 % Horizontal.
-\paperwidth=8.5in
-\textwidth=5.5in
-\oddsidemargin=0.5in  % 1.5in due to LaTeX's calculations
-\evensidemargin=0.5in % 1.5in due to LaTeX's calculations
+\paperwidth=210mm
+\textwidth=150mm % (210mm - 60mm)
+\oddsidemargin=0.46cm  % put at 3cm margins (3cm - 1in = 0.46cm)
+\evensidemargin=0.46cm % put at 3cm margins (3cm - 1in = 0.46cm)
 \raggedbottom % constant spacing in the text; cost is a ragged bottom
-\parindent=0.25in
+\parindent=0.1in
 \leftmargini=0.5in
 \@ifundefined{mathindent}{}{\mathindent=0.5in\relax}%
 
 % Tell dvips about our paper.
-\special{papersize=8.5in,11in}
+\special{papersize=210mm,297mm}
 
 %=====================================================================
 %============================== title ================================
