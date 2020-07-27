@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: glossa-template.aux
+The style file: glossa.bst
+Database file #1: sample.bib
+Warning--to sort, need author, editor, or key in oed:1989
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty author and editor in oed:1989
+You've used 22 entries,
+            3144 wiz_defined-function locations,
+            743 strings with 6783 characters,
+and the built_in function-call counts, 11349 in all, are:
+= -- 945
+> -- 290
+< -- 22
++ -- 110
+- -- 81
+* -- 640
+:= -- 1793
+add.period$ -- 94
+call.type$ -- 22
+change.case$ -- 148
+chr.to.int$ -- 21
+cite$ -- 26
+duplicate$ -- 945
+empty$ -- 1005
+format.name$ -- 114
+if$ -- 2352
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 191
+newline$ -- 121
+num.names$ -- 93
+pop$ -- 383
+preamble$ -- 1
+purify$ -- 113
+quote$ -- 0
+skip$ -- 365
+stack$ -- 0
+substring$ -- 508
+swap$ -- 404
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 174
+warning$ -- 2
+while$ -- 84
+width$ -- 0
+write$ -- 297
+(There were 2 warnings)
