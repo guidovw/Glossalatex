@@ -71,10 +71,23 @@
 
 .Trashes
 
-.gitattributes
-
-.texpadtmp
-
 ehthumbs.db
 
 Thumbs.db
+
+.gitattributes
+
+# Latex editors #
+
+.texpadtmp
+
+*.out
+
+*.toc
+
+*.bbl
+
+*.aux
+
+*.blg
+
