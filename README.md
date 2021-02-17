@@ -1,5 +1,7 @@
 # Glossalatex
+
 Files needed for the Glossa style in Latex:
+
 1. glossa.cls: the document class file. Put this in a location where latex can find it (eg ~/Library/texmf/tex/latex)
 2. glossa-template.tex: an example of an article in the Glossa style
 3. sample.bib: the sample bibliography file used for the example article in 2
