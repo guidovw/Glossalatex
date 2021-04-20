@@ -35,14 +35,14 @@
 \author[Paul \& Vanden Wyngaerd]% short form of the author names for the running header. If no short author is given, no authors print in the headers.
 {%as many authors as you like, each separated by \AND.
   \spauthor{Waltraud Paul\\ 
-  \institute{CNRS, CRLAO}\\
-  \small{105, Bd. Raspail, 75005 Paris\\
+  \institute{CRLAO, CNRS-EHESS-INALCO}\\
+  \small{%105, Bd. Raspail, 75005 Paris\\
   waltraud.paul@ehess.fr}
   }
   \AND
   \spauthor{Guido Vanden Wyngaerd \\
   \institute{KU Leuven}\\
-  \small{Warmoesberg 26, 1000 Brussel\\
+  \small{%Warmoesberg 26, 1000 Brussel\\
   guido.vandenwyngaerd@kuleuven.be}
   }%
 }
@@ -73,11 +73,12 @@ Submissions should be made electronically through the \href{http://glossa.ubiqui
 
 Prior to submission, please add a word count (including footnotes and references) directly under the paper title. Then convert your paper into a single PDF file, containing all tables and figures. Non-PDF files or separately provided files may be returned prior to review. Separate image files may be requested if the submission is accepted for publication.
 
-Please ensure that you consider the following guidelines when preparing your manuscript. Failure to do so may delay the processing of your submission. A downloadable version of the style guide is available \href{https://github.com/guidovw/Glossalatex/blob/master/glossa-template.pdf}{\texttt{here}}. 
+Please ensure that you consider the following guidelines when preparing your manuscript. Failure to do so may delay the processing of your submission. A downloadable version of the style guide is available \href{https://github.com/guidovw/Glossalatex/blob/master/glossa-template.pdf}{\texttt{here}}. Text formatting in accordance with  the stylesheet is required for the accepted version only.
+
 
 For \LaTeX\ submissions, please download the Latex resources \href{https://github.com/guidovw/Glossalatex}{\texttt{here}}.
 
-All files must be anonymised during the initial submission. Only after editorial acceptance should you add author details to the manuscript files. 
+All files must be anonymised during the initial submission (including information in the file properties). Only after editorial acceptance should you add author details to the manuscript files. 
 
 Once a submission has been completed, the submitting author is able to fully track the status of the paper and complete requested revisions via their online profile.
 %\fussy
@@ -106,9 +107,11 @@ Squibs are short notes (5,000 words max.) that make a scintillating point by cal
 
 \subsubsection{Special Collections}
 
-Special Collections are papers devoted to a particular topic, and edited by a team of guest editors. Although contributions to special collections are subject to the normal process of blind peer review, Special Collections are by invitation only. Upon publication, papers within a special collection will be assigned to one of the above article types and collated within their own special collection page. If you are interested in submitting or guest-editing a Special Collection, please contact \href{https://www.glossa-journal.org/about/editorialteam/}{the editors}.
+Special Collections are papers devoted to a particular topic, and edited by a team of guest editors. Contributions to special collections are subject to the normal process of blind peer review. Upon publication, papers within a special collection will be collated within their own special collection page. If you are interested in submitting or guest-editing a Special Collection, please contact \href{https://www.glossa-journal.org/about/editorialteam/}{the editors}.
 
-All word limits include referencing and citation. Please note that if you have data or supplementary files, they should be treated as outlined in section \ref{suppfiles}, and not part of the main submission file.
+\subsubsection{Word limits}
+
+All word limits mentioned above include referencing and citation, but they exclude appendices, data and other supplementary material. Please note that if you have data or supplementary files, they should be treated as outlined in the section \textbf{data availability/supplementary files} below, and not as part of the main submission file.
 
 
 \subsection{Permissions}
@@ -132,11 +135,11 @@ Anonymisation: The names of all authors, affiliations, contact details, biograph
 
 \subsubsection{Abstract}
 
-Articles must have the main text prefaced by an abstract of no more than 250 words summarising the main arguments and conclusions of the article. A list of up to six key words may be placed below the abstract. The abstract and keywords should also be added to the metadata when making the initial online submission. The abstract is automatically attached to the email message inviting reviewers to review the paper.
+Articles must have the main text prefaced by an abstract of no more than 250 words summarising the main arguments and conclusions of the article. A list of up to six key words should be placed below the abstract. The abstract and keywords should also be added to the metadata when making the initial online submission. The abstract is automatically attached to the email message inviting reviewers to review the paper.
 
 \subsubsection{Main text}
 
-Articles are subdivided into numbered sections (and possibly subsections, numbered 1.1 etc., and subsubsections, numbered 1.1.1 etc.), with a bold-faced heading in each case. Subsection headings also have italics. The numbering always begins with 1, not 0. Section headings do not end with a period, and have no special capitalization.
+Articles are subdivided into numbered sections (and possibly subsections, numbered 1.1 etc., and subsubsections, numbered 1.1.1 etc.), with a bold-faced heading in each case. Subsection headings (e.g. 1.1) in addition have italics. The numbering always begins with 1, not 0. Section headings do not end with a period, and have no special capitalisation.
 
 \subsubsection{Unnumbered sections}
 The conclusion is the last numbered section. It may be followed by several (optional) unnumbered sections, in this order: 
@@ -146,38 +149,42 @@ The conclusion is the last numbered section. It may be followed by several (opti
 \item Ethics and consent
 \item Funding information
 \item Acknowledgements
+\item Competing interests
+\item Authors' contributions
 \end{itemize}
 
-\noindent Of these, only the Competing Interests statement is mandatory, and, if your paper contains glossed examples, the Abbreviations section. More explanation on the content of these sections is provided below.
+\noindent Of these, only the Competing interests statement is mandatory, and, if your paper contains glossed examples, the Abbreviations section. More explanation on the content of these sections is provided below.
 
 \subsubsection{References}
 All references cited within the submission must be listed at the end of the main text file.
 
 \subsection{Numbered examples and formulae}
 
-Examples from languages other than English must be glossed (with word-by-word alignment) and translated (cf. the Leipzig Glossing Rules recommended as basic guidelines \href{http://www.eva.mpg.de/lingua/resources/glossing-rules.php}{here}). Example numbers are enclosed in parentheses, and left-aligned. Example sentences usually have normal capitalization at the beginning and normal punctuation. The gloss line has no capitalization and no punctuation. 
+Examples from languages other than English must \emph{all} be glossed (with word-by-word alignment) and translated, even if the translation seems obvious. The Leipzig Glossing Rules are recommended as basic guidelines, and can be found \href{http://www.eva.mpg.de/lingua/resources/glossing-rules.php}{here}). A full list of all the glosses used must be provided in the Abbreviations section. Example numbers are enclosed in parentheses, and left-aligned. Example sentences usually have normal capitalization at the beginning and normal punctuation. The gloss line has no capitalization and no punctuation. 
 
 \ex. \ag. Ich   kenne das Kind, dem du geholfen hast.\\
-I.\textsc{nom} know the child.\textsc{acc} who.\textsc{dat} you.\textsc{nom} helped have\\
+I.\textsc{nom} know the child.\textsc{acc} \textsc{dem.dat} you.\textsc{nom} helped have\\
 \glt `I know the child that you helped.'
 \bg. Ich kenne das Kind, dem du nicht geholfen hast. \\
-I.\textsc{nom} know  the child.\textsc{acc} who.\textsc{dat} you.\textsc{nom} \textsc{neg} helped   have\\
+I.\textsc{nom} know  the child.\textsc{acc} \textsc{dem.dat} you.\textsc{nom} \textsc{neg} helped   have\\
 \glt `I know the child that you didn’t help.’
 
 When the example is not a complete sentence, there is no capitalization and no full stop at the end. If the name of the language is added, the source of the example, or any extra information, this information must be added on an extra first line of the example (with the name of the language in italics).\footnote{Examples in footnotes are numbered with lower case Roman numerals enclosed between brackets:
 
-\ex. Colorless green ideas sleep furiously.
+\ex.
+\a. Colorless green ideas sleep furiously.
+\b. *The child seems sleeping.
 
 More text can follow the example.}
 
 \ex. \textit{German} \citep{coetsem:2000}\\ %optional line for the name of the language (italics), source, etc. Note the absence of \exg., instead use \ex. (and \a. \b. for subdivisions) when this optional line is present. Use \exg. etc. if this line is absent (as in the previous example)
 \gll das Kind, dem du geholfen hast\\  %original foreign language example preceded by \gll
-the child.\textsc{nom} who.\textsc{dat} you.\textsc{nom}  helped have\\ %gloss line
+the child.\textsc{nom} \textsc{dem.dat} you.\textsc{nom}  helped have\\ %gloss line
 \glt `the child that you helped' %translation, preceded by \glt
 
 Ungrammatical examples can be given a parenthesized idiomatic translation. A literal translation may be given in parentheses after the idiomatic translation.
 
-The use of any nonstandard layout in examples beyond what is illustrated above is strongly discouraged, as this will increase production time (and cost) of your paper, as well as increase the chances of the HTML version format including errors in some browsers/screen sizes. If you feel an example needs additional explanation, try as much as possible to provide this in the text that goes with the example. If nonstandard layout is essential, then please raise this with the editorial team to discuss the options available.
+The use of any nonstandard layout in examples beyond what is illustrated above is strongly discouraged, as this will increase production time (and cost) of your paper, as well as increase the chances of the HTML version including errors in some browsers/screen sizes. If you feel an example needs additional explanation, try as much as possible to provide this in the text that goes with the example. If nonstandard layout is essential, then please raise this with the editorial team to discuss the options available.
 
 Formulae must be proofed carefully by the author. Editors will not edit formulae. If special software has been used to create formulae, the way they are laid out is the way they will appear in the publication.
 
@@ -185,7 +192,7 @@ Formulae must be proofed carefully by the author. Editors will not edit formulae
 
 Use footnotes rather than endnotes (we refer to these as ‘Notes’ in the online publication). These will appear at the bottom of each page. Notes should be used only where crucial clarifying information needs to be conveyed. 
 
-Avoid using notes for purposes of referencing, with in-text citations used instead. If in-text citations cannot be used, a source can be cited as part of a note. Please insert the footnote marker after the end punctuation.
+Avoid using notes for purposes of referencing; use in-text citations instead. If in-text citations cannot be used, a source can be cited as part of a note. Please insert the footnote marker after the end punctuation.
 
 The footnote reference number normally follows a period or a comma, though exceptionally it may follow an individual word. Footnote numbers start with 1. Examples in footnotes have the numbers (i), (ii), etc.
 
@@ -293,7 +300,7 @@ Surnames with internal complexity are never treated in a special way. Thus, Dutc
 \item von Humboldt, Wilhelm
 \end{itemize}
 
-Capitalize all lexical words (title case) in journal titles and titles of book series. Capitalize only the first word (plus proper names and the first word after a colon) for book and dissertation titles, and article and chapter titles. The logic is to use title case for the titles that are recurring, lower case for those that are not.
+Capitalise all lexical words (title case) in journal titles and titles of book series. Capitalise only the first word (plus proper names and the first word after a colon) for book and dissertation titles, and article and chapter titles. The logic is to use title case for the titles that are recurring, lower case for those that are not.
 
 Names of book series directly follow the book title, without intervening punctuation. They appear between brackets and in roman font. They may be accompanied by an (optional) issue number.
 
@@ -301,12 +308,12 @@ Names of book series directly follow the book title, without intervening punctua
 
 \subsubsection{Capitalization}
 
-Sentences, proper names and titles/headings/captions start with a capital letter, but there is no special capitalization (“title case”) within English titles/headings, neither in the article title nor in section headings or figure captions. Capitalization is also used after the colon in titles, i.e. for the beginning of subtitles.
+Sentences, proper names and titles/headings/captions start with a capital letter, but there is no special capitalisation (`title case') within English titles/headings, neither in the article title nor in section headings or figure captions. Capitalisation is also used after the colon in titles, i.e. for the beginning of subtitles.
 
-Capitalization is used only for parts of the article (chapters, figures, tables, appendixes) when they are numbered, e.g.
+Capitalisation is used only for parts of the article (sections, figures, tables, appendixes) when they are numbered, e.g.
 \begin{itemize}
 \item as shown in Table 5
-\item more details are given in Chapter 3
+\item more details are given in Section 3
 \item this is illustrated in Figure 17
 \end{itemize}
 
@@ -365,12 +372,12 @@ As part of the submission process, authors are required to check off their submi
 \item The submission has not been previously published, nor is it being considered for publication by another journal (or an explanation has been provided in Comments to the Editor).
 \item Any third-party-owned materials used have been identified with appropriate credit lines, and permission obtained from the copyright holder for all formats of the journal.
 \item All authors have given permission to be listed on the submitted paper and satisfy the \href{http://glossa.ubiquitypress.com/about/authorship/}{authorship guidelines}. 
-\item The submission file is in Latex, OpenOffice, Microsoft Word, \textsc{rtf}, or WordPerfect document file format.
+\item The original submission file is in PDF document format. Accepted papers may be submitted in any of the following formats: Latex, OpenOffice, Microsoft Word, \textsc{rtf}, or WordPerfect.
 \item All \textsc{doi}s for the references have been provided, when available.
 \item Tables and figures are all cited in the text. Tables are included within the text document, whilst figure files are uploaded as supplementary files.
 \item Figures/images have a resolution of at least 300dpi. Each file is no more than 20Mb per file. The files are in one of the following formats: \textsc{jpg, tiff, gif, png, eps} (to maximise quality, the original source file is preferred).
 \item The author(s) agree to edit their text to adhere to the stylistic and bibliographic requirements outlined in the \href{https://www.glossa-journal.org/about/submissions#authorGuidelines}{Author Guidelines}, should the paper be editorially accepted.
-\item All references to the author(s) have been removed from the paper. Aside from omitting the author’s name, this entails only referring to your own work in the third person (do not use `Author 1’ or a similar replacement for your own name), and removing your name and any additional metadata from the document’s properties.
+\item All references to the author(s) have been removed from the paper. Aside from omitting the author’s name, this entails only referring to your own work in the third person (do not use `Author 1’ or a similar replacement for your own name), and removing your name and any additional metadata from the document’s file properties.
 \item Author names are removed from the manuscript files (following the instructions to ensure \href{https://www.glossa-journal.org/help/view/editorial/topic/000044}{blind peer review}).
 
 \end{enumerate}
@@ -391,13 +398,13 @@ The names and email addresses entered in this journal site will be used exclusiv
 
 \section{Publication fees}
 
-Authors publishing in Glossa face no financial obligation for the publication of their article. Those authors who have access to funds earmarked for Article Processing Charges (via a research grant or through their institution) will be asked to use those funds to cover the £330 APC of their publication in Glossa. \textbf{Authors without access to such funds must contact \email{tim.wakeford@ubiquitypress.com} upon submission to confirm that they will require the APC to be waived.} The waived APCs will be paid by LingOA, a fund made possible by grants from the \emph{Association of Dutch Universities} (VSNU) and the \emph{Netherlands Organisation for Scientific Research} (NWO), with long-term funding provided by the Open Library of Humanities (OLH).
+Authors publishing in Glossa face no financial obligation for the publication of their article. Those authors who have access to funds earmarked for Article Processing Charges (APC) (via a research grant or through their institution) will be asked to use those funds to cover the APC of their publication in Glossa. \textbf{Authors without access to such funds must contact \email{tim.wakeford@ubiquitypress.com} upon submission to confirm that they will require the APC to be waived.} The waived APCs will be paid by the \href{https://www.openlibhums.org}{Open Library of the Humanities} (OLH), which is funded by contributions from academic libraries worldwide.
 
 The APC covers all publication costs (editorial processes; web hosting; indexing; marketing; archiving; DOI registration etc) and ensures that all of the content is fully open access. This approach maximises the potential readership of publications and allows the journal to be run in a sustainable way.
 
-\textbf{If you do not know about your institution’s policy on open access funding, please contact your departmental/faculty administrators and institution library, as funds may be available to you.}
+If you do not know about your institution’s policy on open access funding, please contact your departmental/faculty administrators and institution library, as funds may be available to you.
 
-Shortly after publication, authors that have not already requested a waiver from LingOA will receive an APC request email along with information on how payment can be arranged. If the APC situation has changed since submission to publication, an APC waiver can also be requested at this point.
+Shortly after publication, authors that have not already requested a waiver from OLH will receive an APC request email along with information on how payment can be arranged. If the APC situation has changed since submission to publication, an APC waiver can also be requested at this point.
 
 \section{Conclusion}
 
@@ -405,25 +412,25 @@ The conclusion is the last numbered section, and any ensuing sections are unnumb
 
 \section*{Abbreviations (mandatory)}\label{abbrev}
 
-\textsc{acc} = accusative, \textsc{dat} = dative, \textsc{nom} = nominative, \textsc{pl} = plural, \textsc{sg} = singular
+\textsc{acc} = accusative, \textsc{dat} = dative, \textsc{dem} = demonstrative, \textsc{nom} = nominative, \textsc{pl} = plural, \textsc{sg} = singular
 
-For a list of standard abbreviations, refer to the \href{https://www.eva.mpg.de/lingua/resources/glossing-rules.php}{Leipzig glossing rules}. 
+For the standard abbreviations to be used here, refer to the \href{https://www.eva.mpg.de/lingua/resources/glossing-rules.php}{Leipzig glossing rules}. 
 
-\section*{Data Availability/Supplementary files (optional)}\label{suppfiles}
+\section*{Data availability/Supplementary files (optional)}
 
 The journal encourages authors to make all data associated with their submission openly available, according to the FAIR principles (Findable, Accessible, Interoperable, Reusable). More information can be found \href{https://www.glossa-journal.org/about/editorialpolicies/#data-policy}{\texttt{here}}.
 
-If data/supplementary files are to be associated with the submission, one of the below options should be followed:
+If data/supplementary files are to be associated with the accepted paper, one of the options below should be followed:
 \begin{enumerate}
 \item upload the files to your chosen open repository and make note of the DOI that they will provide (most suitable for datasets or information that act as foundations to the research being published; this option makes the files more findable and more citable).
 \item upload the files to the journal system during the submission process, as `data files'. The journal will then host them as part of the publication and provide them with a DOI (most suitable for non-data files or very short pieces of information, although option 1 is also suitable for these if the author prefers).
 \end{enumerate}
 
-\noindent In both cases, a `Data Availability' or `Supplementary Files' section must be added prior to the reference list that provides a title and very short summary of the files for each file. If option 1 was selected, you should also provide the DOI in this section. For example:
+\noindent In both cases, a `Data availability' or `Supplementary files' section must be added prior to the reference list that provides a title and very short summary of the files for each file. If option 1 was selected, you should also provide the DOI in this section. For example:
 
 \noindent Supplementary file 1: Appendix. Scientific data related to the experiments. DOI: \doi{10.5334/gjgl.310.s1}
 
-Ideally, supplementary files are also cited in the main text. Please note that neither option will result in the files being typeset, so please ensure that they are in the publishable format when you complete the upload.
+Ideally, supplementary files are also cited in the main text. Please note that neither of the above two options will result in the files being typeset, so please ensure that they are in the publishable format when you complete the upload.
 
 
 \section*{Ethics and consent (optional)}
