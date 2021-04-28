@@ -91,3 +91,8 @@ Thumbs.db
 
 *.blg
 
+*.fdb_latexmk
+
+*.fls
+
+
