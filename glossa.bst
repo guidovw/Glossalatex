@@ -102,7 +102,10 @@ FUNCTION {output.check}
   if$
 }
 FUNCTION {fin.entry}
-{ add.period$
+{ doi empty$
+    { add.period$ }
+    { }
+  if$
   write$
   newline$
 }
