@@ -1,6 +1,6 @@
 % !TEX TS-program = xelatexmk
 % see http://info.semprag.org/basics for a full description of this template
-\documentclass[charis,linguex]{glossa}
+\documentclass[charis,linguex,biblatex]{glossa}
 % possible options: 
 % [times] for Times font (default if no option is chosen)
 % [cm] for Computer Modern font 
@@ -14,7 +14,7 @@
 % !! a note on the use of linguex: in glossed examples, the third line of the example (the translation) needs to be prefixed with \glt. This is to allow a first line with the name of the language and the source of the example. See example (2) in the text for an illustration.
 % !! a note on the use of bibtex: for PhD dissertations to typeset correctly in the references list, the Address field needs to contain the city (for US cities in the format "Santa Cruz, CA")
 
-%\addbibresource{sample.bib} 
+\addbibresource{sample.bib} 
 % the above line is for use with biblatex
 % replace this by the name of your bib-file (extension .bib is required)
 % comment out if you use natbib/bibtex
@@ -250,7 +250,7 @@ Tree diagrams should be treated as examples, not as figures. If your figure or t
 
 \subsection{In-text citations}
 
-The short reference form used in the text consists of the author’s surname and the publication year, followed by page numbers where necessary. Brackets surround the year, except if the citation is already inside brackets, in which case there are no brackets around the year. If there are more than two authors, the first name plus \textit{et al.} can be used.
+The short reference form used in the text consists of the author’s surname and the publication year, followed by page numbers where necessary. Brackets surround the year, except if the citation is already inside brackets, in which case there are no brackets around the year. If there are more than two authors, the surname of the first author plus \textit{et al.} can be used. If all the authors are listed, they are all separated by an ampersand.
 
 \begin{itemize}
 \item \citet[514]{murray:1983} point out that \ldots
@@ -468,8 +468,8 @@ Here you can provide a sentence or a short paragraph detailing the contribution 
 
 \nocite{*} %this is to get all the entries of the sample bibliography; delete this line for an actual Glossa submission
 
-%\printbibliography %for use with biblatex; comment out if you use natbib
-\bibliography{sample} %for use with natbib; comment out if you use biblatex, and change 'sample' by the name of your bib-file
+\printbibliography %for use with biblatex; comment out if you use natbib
+%\bibliography{sample} %for use with natbib; comment out if you use biblatex, and change 'sample' by the name of your bib-file
 
 
 \end{document}
