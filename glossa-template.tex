@@ -1,6 +1,6 @@
 % !TEX TS-program = xelatexmk
 % see http://info.semprag.org/basics for a full description of this template
-\documentclass[charis,linguex,biblatex]{glossa}
+\documentclass[charis,linguex]{glossa}
 % possible options: 
 % [times] for Times font (default if no option is chosen)
 % [cm] for Computer Modern font 
@@ -14,7 +14,7 @@
 % !! a note on the use of linguex: in glossed examples, the third line of the example (the translation) needs to be prefixed with \glt. This is to allow a first line with the name of the language and the source of the example. See example (2) in the text for an illustration.
 % !! a note on the use of bibtex: for PhD dissertations to typeset correctly in the references list, the Address field needs to contain the city (for US cities in the format "Santa Cruz, CA")
 
-\addbibresource{sample.bib} 
+%\addbibresource{sample.bib} 
 % the above line is for use with biblatex
 % replace this by the name of your bib-file (extension .bib is required)
 % comment out if you use natbib/bibtex
@@ -468,8 +468,8 @@ Here you can provide a sentence or a short paragraph detailing the contribution 
 
 \nocite{*} %this is to get all the entries of the sample bibliography; delete this line for an actual Glossa submission
 
-\printbibliography %for use with biblatex; comment out if you use natbib
-%\bibliography{sample} %for use with natbib; comment out if you use biblatex, and change 'sample' by the name of your bib-file
+%\printbibliography %for use with biblatex; comment out if you use natbib
+\bibliography{sample} %for use with natbib; comment out if you use biblatex, and change 'sample' by the name of your bib-file
 
 
 \end{document}
