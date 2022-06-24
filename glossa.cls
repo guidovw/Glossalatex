@@ -208,15 +208,16 @@
   %\RequirePackage{breakurl}
 \fi
 \RequirePackage{graphicx}
-\RequirePackage{float}
 \RequirePackage[hang,FIGBOTCAP,loose]{subfigure}
 
-% additions to the S&P required packages for Glossa are listed below
+% additions/changes to the S&P required packages for Glossa are listed below
 
 \RequirePackage[normalem]{ulem}
 \RequirePackage{enumitem}
 \RequirePackage[font=sf,labelfont=bf,labelsep=colon,justification=raggedright,singlelinecheck=off,justification=centering]{caption}
 \RequirePackage{booktabs}
+\RequirePackage[font=sf]{floatrow}
+\floatsetup{style=plaintop} %captions above floats
 
 %=====================================================================
 %============================= metadata ==============================
