@@ -304,7 +304,7 @@
 \advance\onelineskip by0pt plus 4pt minus 2pt
 
 \def\@maketitle{%
-  \vbox{\hsize\textwidth%
+  \vbox{\sffamily\hsize\textwidth%
     \linewidth\hsize%
     \centering
     \vskip\onelineskip
@@ -482,12 +482,12 @@
 {\endlist}
 
 \renewenvironment{abstract}%
-{\list{}{\frontmatterspacing{0.25in}}%
+{\sffamily\list{}{\frontmatterspacing{0.25in}}%
 \item\relax\textbf{\abstractname} }%
 {\endlist}
 
 \newenvironment{keywords}%
-{\list{}{\frontmatterspacing{0em}}%
+{\sffamily\list{}{\frontmatterspacing{0em}}%
 \item\relax\textbf{Keywords:}}%
 {\endlist}
 
