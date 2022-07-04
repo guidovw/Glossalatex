@@ -301,9 +301,11 @@ Surnames with internal complexity are never treated in a special way. Thus, Dutc
 
 Capitalise all lexical words (title case) in journal titles and titles of book series. Capitalise only the first word (plus proper names and the first word after a colon) for book and dissertation titles, and article and chapter titles. The logic is to use title case for the titles that are recurring, lower case for those that are not.
 
+Important note for \LaTeX\ users: when typesetting the bibliography with the Glossa style files, titles of articles, chapters, books, and dissertation titles will automatically have their capitals made lowercase, e.g. if your bib-file has `Passive Arguments Raised' as an article title, this will be typeset as `Passive arguments raised' in the references list, since this is what the stylesheet wants. However, this procedure has the unwanted side-effect that words that should keep a capital also lose it, most notably the names of languages. For example, a title like `VSO versus VOS: Aspects of Niuean word order' will appear as `Vso versus vos: Aspects of niuean word order'. In order to avoid this from happening, you must in your bib-file protect words with necessary capitals by surrounding them with braces, like this:  `\{VSO\} versus \{VOS\}: Aspects of \{Niuean\} word order'.
+
 Names of book series are optional; they directly follow the book title, without intervening punctuation. They appear between brackets, have title case, and Roman font. They may be accompanied by an (optional) issue number.
 
-Glossa style in Citation Style Language (CSL) is available \href{https://www.zotero.org/styles?q=Glossa}{here}. Many thanks to Mark Dingemanse for creating this style.
+Glossa style in Citation Style Language (CSL) for use with Zotero is available \href{https://www.zotero.org/styles?q=Glossa}{here}. Many thanks to Mark Dingemanse for creating this style, and to Lisa Levinson for updating it.
 
 
 \subsection{Typographical matters}
