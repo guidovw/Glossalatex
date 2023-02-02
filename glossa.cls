@@ -217,7 +217,7 @@
 \RequirePackage[font=sf,labelfont=bf,labelsep=colon,justification=raggedright,singlelinecheck=off,justification=centering]{caption}
 \RequirePackage{booktabs}
 \RequirePackage[font=sf]{floatrow}
-\floatsetup{style=plaintop} %captions above floats
+%\floatsetup{style=plaintop} %captions above floats
 
 %=====================================================================
 %============================= metadata ==============================

@@ -204,7 +204,6 @@ The footnote reference number normally follows a period or a comma, though excep
 Tables and figures are treated as floats in typesetting. This means that their placement on the page will not necessarily be where you put them in your manuscript, as this may lead to large parts of the page ending up white (e.g. when a table or figure does not fit on the current page anymore and wraps onto the following page). For this reason, you must always refer to tables and figures in the running text, as in the following example: ``In certain languages, the superlative transparently contains the comparative morphologically, as illustrated in table \ref{tbl:table1} \citep[46]{Bobaljik2012}.'' Do not refer to tables and figures using the words ``following'', ``below'' or ``above'', as the final placement of your table or figure may be different from where you placed them in your manuscript.
 
 \begin{table}[h]
-\caption{Morphological containment}
 \begin{tabular}{lllll}
  & \textsc{Pos} & \textsc{Cmpr} & \textsc{Sprl}\\
 \toprule
@@ -215,14 +214,16 @@ Hungarian & nagy & nagy-obb & leg-nagy-obb & `big’\\
 Latvian & zil-ais & zil-âk-ais & vis-zil-âk-ais & `blue’\\
 Ubykh &  nüs\textsuperscript{w}\textipa{@} & ç’a-nüs\textsuperscript{w}\textipa{@} & a-ç’a-nüs\textsuperscript{w}\textipa{@} & `pretty’ \\
 \bottomrule
-\end{tabular}\label{tbl:table1}
+\end{tabular}
+\caption{Morphological containment}
+\label{tbl:table1}
 \end{table}
 
-Tables and figures are numbered consecutively. Each table and each figure has a caption. The caption is placed above figures and tables, with the figure or table number in bold.  If the caption is not a complete sentence, it is not followed by a period. Examples are shown in the captions of table \ref{tbl:table1} and figure \ref{fig:glossalogo}.
+Tables and figures are numbered consecutively. Each table and each figure has a caption. The caption is placed below figures and tables, with the figure or table number in bold.  If the caption is not a complete sentence, it is not followed by a period. Examples are shown in the captions of table \ref{tbl:table1} and figure \ref{fig:glossalogo}.
 
 \begin{figure}[h]
-\caption{The Glossa logo (design by Linnea Vanden Wyngaerd)}
 \includegraphics[width=10cm]{glossa}
+\caption{The Glossa logo (design by Linnea Vanden Wyngaerd)}
 \label{fig:glossalogo}
 \end{figure}
 
