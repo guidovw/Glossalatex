@@ -10,7 +10,7 @@
 % v6 29 Sep 2016
 % v7 27 Jan 2018 patches by Adam Liter for section headings
 % v8 16 May 2019 patches by GS for compatibility with xe/pdflatex
-% v- 19 Jun 2020 by mitcho to better match Glossa typesetting
+% v9 19 Jun 2020 by mitcho to better match Glossa typesetting
 % v10 5 May 2021 changes to the stylesheet (no italics for subsections))
 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
