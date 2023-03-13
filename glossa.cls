@@ -1,17 +1,29 @@
-% Glossa stylefile, modified from the 
-% Semantics & Pragmatics style file.
-% Kai von Fintel, Christopher Potts, and Chung-chieh Shan
-% modifications for Glossa by Guido Vanden Wyngaerd
-% v1 13 Nov 2015
-% v2 10 Jan 2016
-% v3 16 Apr 2016
-% v4 26 Jun 2016
-% v5 16 Aug 2016
-% v6 29 Sep 2016
-% v7 27 Jan 2018 patches by Adam Liter for section headings
-% v8 16 May 2019 patches by GS for compatibility with xe/pdflatex
-% v9 19 Jun 2020 by mitcho to better match Glossa typesetting
-% v10 5 May 2021 changes to the stylesheet (no italics for subsections))
+% glossa.cls
+% Copyright 2016 Guido Vanden Wyngaerd
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainer of this work is Guido Vanden Wyngaerd.
+%
+% This work consists of the files 
+% glossa.cls
+% glossa.bst
+% gl-authoryear-comp.cbx
+% biblatex-gl.bbx
+% glossa-template.tex
+% glossa.png
+%
+% The files of the work are derived from the Semantics & Pragmatics style files
+% by Kai von Fintel, Christopher Potts, and Chung-chieh Shan
+% All changes are documented on the github repository 
+% https://github.com/guidovw/Glossalatex.
 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesClass{glossa}[2018/01/27 v.2.3 Class for Glossa]
