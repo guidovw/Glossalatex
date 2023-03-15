@@ -10,8 +10,7 @@
 %
 % This work has the LPPL maintenance status `maintained'.
 % 
-% The Current Maintainer of this work is 
-% Guido Vanden Wyngaerd (guido.vandenwyngaerd@kuleuven.be).
+% The Current Maintainer of this work is Guido Vanden Wyngaerd.
 %
 % This work consists of the files 
 % glossa.cls
@@ -174,8 +173,9 @@
 
 \if@biblatex
 	\RequirePackage[backend=biber,
-			bibstyle=biblatex-gl,
-			citestyle=gl-authoryear-comp,
+			natbib=true, %compatibility with natbib cite commands
+			bibstyle=biblatex-gl, %alphabetises the bibliography
+			citestyle=gl-authoryear-comp, %takes care of references in the text
 			maxcitenames=3,
 			maxbibnames=99]{biblatex}
 \else
