@@ -174,8 +174,8 @@
 \if@biblatex
 	\RequirePackage[backend=biber,
 			natbib=true, %compatibility with natbib cite commands
-			bibstyle=biblatex-gl, %alphabetises the bibliography
-			citestyle=gl-authoryear-comp, %takes care of references in the text
+			bibstyle=biblatex-gl, %alphabetises and typesets the bibliography
+			citestyle=gl-authoryear-comp, %makes the references in the text
 			maxcitenames=3,
 			maxbibnames=99]{biblatex}
 \else
