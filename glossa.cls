@@ -131,9 +131,9 @@
   {\RequirePackage{stmaryrd}}%
   {\newcommand{\llbracket}{\ensuremath{\left [\!\left [}}%
    \newcommand{\rrbracket}{\ensuremath{\right ]\!\right ]}}}
-  \RequirePackage[bitstream-charter]{mathdesign} %math font close to Charis SIL
+  \RequirePackage[bitstream-charter]{mathdesign} %math font close to Charis
   \RequirePackage[no-math]{fontspec}
-  \setmainfont{CharisSIL}
+  \setmainfont{Charis}
   \RequirePackage{FiraSans} %sf font; download from https://www.fontsquirrel.com/fonts/fira-sans
   \RequirePackage{amssymb}
   \RequirePackage{textcomp}

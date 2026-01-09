@@ -11,3 +11,5 @@ Files needed for the Glossa style in Latex:
 7. cgloss.sty (needed for glosses in the Glossa document class; not standardly included in the tex-distribution; put this in a location where latex can find it, eg ~/Library/texmf/tex/latex)
 
 Files 5 and 6 are needed for use with biblatex; put these in a location where latex can find them (eg ~/Library/texmf/tex/latex/biblatex); ignore if you use bibtex.
+
+The Charis SIL font has recently changed its name to Charis. As of Jan 2026, the template incorporates this change. For the template to work with this font, Charis needs to be installed on your system (download it from [https://software.sil.org/charis/](https://software.sil.org/charis/)).
